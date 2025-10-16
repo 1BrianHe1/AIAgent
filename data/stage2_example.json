@@ -1,0 +1,534 @@
+{
+  "topic": "餐厅点餐",
+  "hsk_level": 3,
+  "total_lessons": 3,
+  "estimated_duration": 15,
+  "question_num": 11,
+  "lessons": [
+    {
+      "lesson_id": 1,
+      "lesson_name": "菜单识读",
+      "description": "你刚进入一家中式餐馆，面对中文菜单感到困惑。本课教你识别常见菜品分类如蔬菜、肉类和汤类，理解基本词汇如‘炒’‘煮’‘辣’，并能分辨价格、主食与配菜标识，为独立点餐打下基础。",
+      "duration": 5,
+      "skill_distribution": {
+        "speaking": 3,
+        "listening": 0,
+        "reading": 0,
+        "writing": 0,
+        "translating": 0
+      },
+      "related_vocabulary": [
+        {
+          "word_id": 0,
+          "word": "鸡蛋",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 1,
+          "word": "价格",
+          "HSK_level": 3,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 2,
+          "word": "菜单",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 3,
+          "word": "咖啡",
+          "HSK_level": 3,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 4,
+          "word": "便宜",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 5,
+          "word": "菜",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 6,
+          "word": "鱼",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 7,
+          "word": "贵",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 8,
+          "word": "汤",
+          "HSK_level": 3,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 9,
+          "word": "米饭",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 10,
+          "word": "面条儿",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 11,
+          "word": "肉",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": 2,
+      "lesson_name": "点餐对话",
+      "description": "你在食堂或小餐馆准备点餐，需要向服务员说出想吃的菜。本课训练你使用简单句式如‘我要……’‘可以吗？’‘不辣’等完成点餐交流，掌握礼貌用语和常见应答，提升实际口语沟通能力。",
+      "duration": 5,
+      "skill_distribution": {
+        "speaking": 3,
+        "listening": 0,
+        "reading": 0,
+        "writing": 0,
+        "translating": 0
+      },
+      "related_vocabulary": [
+        {
+          "word_id": 0,
+          "word": "手机",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 1,
+          "word": "可以",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 2,
+          "word": "这里",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 3,
+          "word": "多少",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 4,
+          "word": "请",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 5,
+          "word": "钱",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 6,
+          "word": "坐下",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 7,
+          "word": "员（服务员）",
+          "HSK_level": 3,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 8,
+          "word": "不要",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 9,
+          "word": "菜",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 10,
+          "word": "买",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 11,
+          "word": "支付",
+          "HSK_level": 3,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 12,
+          "word": "要",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 13,
+          "word": "谢谢",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 14,
+          "word": "现金",
+          "HSK_level": 3,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": 3,
+      "lesson_name": "情景模拟",
+      "description": "综合前两课内容，模拟完整就餐流程：看菜单、提问价格、表达口味偏好（如不要葱、少盐）、确认订单并结账。通过角色扮演巩固语言应用，增强在真实餐厅环境中的自信心与应变能力。",
+      "duration": 5,
+      "skill_distribution": {
+        "speaking": 5,
+        "listening": 0,
+        "reading": 0,
+        "writing": 0,
+        "translating": 0
+      },
+      "related_vocabulary": [
+        {
+          "word_id": 0,
+          "word": "一样",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 1,
+          "word": "喜欢",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 2,
+          "word": "不行",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 3,
+          "word": "元",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 4,
+          "word": "正常",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 5,
+          "word": "一共",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 6,
+          "word": "有（一）点儿",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 7,
+          "word": "甜",
+          "HSK_level": 3,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 8,
+          "word": "很",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 9,
+          "word": "几",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 10,
+          "word": "座位",
+          "HSK_level": 2,
+          "skill_distribution": {
+            "speaking": 1,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 11,
+          "word": "外",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        },
+        {
+          "word_id": 12,
+          "word": "太",
+          "HSK_level": 1,
+          "skill_distribution": {
+            "speaking": 0,
+            "listening": 0,
+            "reading": 0,
+            "writing": 0,
+            "translating": 0
+          }
+        }
+      ]
+    }
+  ]
+}
