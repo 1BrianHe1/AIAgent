@@ -1,0 +1,1801 @@
+[
+  {
+    "lesson_id": "1",
+    "lesson_name": "菜单识读",
+    "passage": {
+      "lesson_id": "1",
+      "text": "我今天和朋友去了一家中式餐馆，这是我第一次自己看中文菜单，有点紧张但也很兴奋。服务员递给我一份菜单，我打开一看，好多字都不认识。不过我记得老师教过，可以先找熟悉的词。\n\n我看到“菜”这个字出现了很多次，比如“西红柿炒鸡蛋”“青椒炒肉”，原来“炒”就是用油煎一煎的意思。我还发现了“汤”类，有“鸡蛋汤”和“鱼汤”，看起来都很香。朋友说鱼汤比较贵，但鸡蛋汤很便宜，我就点了鸡蛋汤。\n\n主食有“米饭”和“面条儿”，我想试试面条儿，就点了一份鸡肉面。对了，我还想喝杯咖啡，虽然咖啡不是中餐，但这里也有卖。服务员告诉我咖啡不贵，一杯才18元，价格挺合适。\n\n等菜的时候我继续看菜单，发现有些菜写着“辣”，我不太能吃辣，就没点。最后我的面条儿、鸡蛋汤和米饭都上来了，分量足，味道好，总共才花了不到50元，真划算！\n\n吃完后我觉得自己进步很大，以前不敢看中文菜单，现在居然能看懂这么多！下次我还想试试别的菜，比如牛肉炒饭或者酸辣汤。学会看菜单，吃饭也变得更有趣了。",
+      "tokens_est": 425,
+      "covered_words": [
+        "鸡蛋",
+        "价格",
+        "菜单",
+        "咖啡",
+        "便宜",
+        "菜",
+        "鱼",
+        "贵",
+        "汤",
+        "米饭",
+        "面条儿",
+        "肉"
+      ]
+    },
+    "vocab_packages": [
+      {
+        "word_id": "0",
+        "word": "鸡蛋",
+        "questions": [
+          {
+            "qid": "42925f3a-c2f0-4d31-ae90-069d4e4e2117",
+            "type": "CLOZE",
+            "prompt": "我点了一份____汤，朋友说它很便宜。",
+            "options": [
+              "鸡蛋",
+              "鱼",
+              "西红柿",
+              "青椒"
+            ],
+            "answer": "鸡蛋",
+            "explanation": "文章中提到‘鸡蛋汤很便宜’，因此空格处应填‘鸡蛋’。",
+            "target_word": "鸡蛋"
+          },
+          {
+            "qid": "b344a0cc-4b1d-4f11-b28a-78052475920a",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '鸡蛋' 的正确意思？",
+            "options": [
+              "鸡生的蛋，一种常见的食物",
+              "一种水果",
+              "一种饮料",
+              "一种调味料"
+            ],
+            "answer": "鸡生的蛋，一种常见的食物",
+            "explanation": "‘鸡蛋’指的是鸡所产的蛋，是中文里常见的食材，如文中提到的‘鸡蛋汤’和‘西红柿炒鸡蛋’。",
+            "target_word": "鸡蛋"
+          },
+          {
+            "qid": "424f8e43-02ab-4ed2-82a4-3d3e60ba6d43",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我点了鸡蛋汤。",
+            "options": null,
+            "answer": "I ordered egg soup.",
+            "explanation": "‘鸡蛋汤’翻译为‘egg soup’，‘我点了’对应‘I ordered’，整句结构简单，注意名词搭配即可。",
+            "target_word": "鸡蛋"
+          }
+        ]
+      },
+      {
+        "word_id": "1",
+        "word": "价格",
+        "questions": [
+          {
+            "qid": "80867dda-f602-44b3-a152-ae073447b385",
+            "type": "CLOZE",
+            "prompt": "服务员告诉我咖啡不贵，一杯才18元，____挺合适。",
+            "options": [
+              "价格",
+              "便宜",
+              "花钱",
+              "付款"
+            ],
+            "answer": "价格",
+            "explanation": "‘价格’指商品或服务的金额，文中用来描述咖啡的收费情况。",
+            "target_word": "价格"
+          },
+          {
+            "qid": "f9ad6270-82b2-4a27-9087-b69c92b55dcc",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '价格' 的正确意思？",
+            "options": [
+              "物品或服务的费用",
+              "购买的行为",
+              "物品的质量",
+              "卖东西的地方"
+            ],
+            "answer": "物品或服务的费用",
+            "explanation": "‘价格’指的是某样东西值多少钱，即费用或标价。",
+            "target_word": "价格"
+          },
+          {
+            "qid": "f082eac8-ccfe-468e-adf9-be298c128811",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：这道菜的价格是多少？",
+            "options": null,
+            "answer": "How much is the price of this dish?",
+            "explanation": "‘价格’对应英文中的'price'，句子是询问某物的价钱，常用'How much'提问。",
+            "target_word": "价格"
+          }
+        ]
+      },
+      {
+        "word_id": "2",
+        "word": "菜单",
+        "questions": [
+          {
+            "qid": "4f843d06-175c-434a-b39c-08859a183790",
+            "type": "CLOZE",
+            "prompt": "服务员递给我一份____，我打开一看，好多字都不认识。",
+            "options": [
+              "菜单",
+              "账单",
+              "饮料",
+              "筷子"
+            ],
+            "answer": "菜单",
+            "explanation": "根据上下文，服务员递给‘我’的是用来点菜的清单，因此是‘菜单’。",
+            "target_word": "菜单"
+          },
+          {
+            "qid": "415dd0be-1301-4b24-86f8-3570ab01f8a2",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '菜单' 的正确意思？",
+            "options": [
+              "列出餐馆菜品和价格的清单",
+              "吃饭时用的桌子",
+              "厨师的名字",
+              "餐厅的招牌"
+            ],
+            "answer": "列出餐馆菜品和价格的清单",
+            "explanation": "‘菜单’指的是餐馆里供顾客查看并选择食物和饮料的清单，通常包含名称和价格。",
+            "target_word": "菜单"
+          },
+          {
+            "qid": "dbc9e0ea-9fb0-4ed7-af62-60fe5d2a5078",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我今天和朋友去了一家中式餐馆，这是我第一次自己看中文菜单。",
+            "options": null,
+            "answer": "Today I went to a Chinese restaurant with my friend, and it was the first time I read a Chinese menu by myself.",
+            "explanation": "翻译时需注意时态（‘今天’对应‘Today’）、主语一致性以及‘第一次自己看’准确表达为‘the first time I read...by myself’。",
+            "target_word": "菜单"
+          }
+        ]
+      },
+      {
+        "word_id": "3",
+        "word": "咖啡",
+        "questions": [
+          {
+            "qid": "34ea6b8b-9f05-487e-aac1-5955b497308d",
+            "type": "CLOZE",
+            "prompt": "对了，我还想喝杯____，虽然咖啡不是中餐，但这里也有卖。",
+            "options": [
+              "咖啡",
+              "茶",
+              "牛奶",
+              "果汁"
+            ],
+            "answer": "咖啡",
+            "explanation": "根据上下文，说话人明确提到‘咖啡’，且后文讨论的是咖啡的价格，因此空格处应填‘咖啡’。",
+            "target_word": "咖啡"
+          },
+          {
+            "qid": "d898e8e6-52b3-4a6b-912c-772db832ec5a",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '咖啡' 的正确意思？",
+            "options": [
+              "一种由咖啡豆制成的饮品",
+              "一种中式面条",
+              "一种甜点",
+              "一种蔬菜"
+            ],
+            "answer": "一种由咖啡豆制成的饮品",
+            "explanation": "‘咖啡’是指用咖啡豆磨粉后冲泡而成的饮料，常作为提神饮品，与文章中的语境一致。",
+            "target_word": "咖啡"
+          },
+          {
+            "qid": "7c22f961-3101-4a95-97e1-ccadd2d6e238",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：服务员告诉我咖啡不贵，一杯才18元，价格挺合适。",
+            "options": null,
+            "answer": "The waiter told me coffee is not expensive, only 18 yuan a cup, the price is quite reasonable.",
+            "explanation": "翻译时需注意‘不贵’译为‘not expensive’，‘才18元’强调价格低，用‘only 18 yuan’更准确，‘价格挺合适’可译为‘the price is quite reasonable’。",
+            "target_word": "咖啡"
+          }
+        ]
+      },
+      {
+        "word_id": "4",
+        "word": "便宜",
+        "questions": [
+          {
+            "qid": "a3af3b78-4073-4344-93c4-ce4bc7981007",
+            "type": "CLOZE",
+            "prompt": "朋友说鱼汤比较贵，但鸡蛋汤很____，我就点了鸡蛋汤。",
+            "options": [
+              "便宜",
+              "贵",
+              "好吃",
+              "辣"
+            ],
+            "answer": "便宜",
+            "explanation": "根据上下文，'贵'的反义词是'便宜'，表示价格低，符合句意。",
+            "target_word": "便宜"
+          },
+          {
+            "qid": "cf72e7d9-aca5-4e86-b8a6-540f19260d25",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '便宜' 的正确意思？",
+            "options": [
+              "价格低",
+              "质量差",
+              "数量少",
+              "味道好"
+            ],
+            "answer": "价格低",
+            "explanation": "'便宜'在中文中表示商品或服务的价格不高，与'贵'相对，因此正确意思是'价格低'。",
+            "target_word": "便宜"
+          },
+          {
+            "qid": "323cd198-b95d-4ae2-aaa8-b2495b7ae0b1",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：鸡蛋汤很便宜，我就点了鸡蛋汤。",
+            "options": null,
+            "answer": "The egg soup is very cheap, so I ordered it.",
+            "explanation": "注意'便宜'在这里指价格低，应翻译为'cheap'；句子用'so'连接因果关系更自然。",
+            "target_word": "便宜"
+          }
+        ]
+      },
+      {
+        "word_id": "5",
+        "word": "菜",
+        "questions": [
+          {
+            "qid": "309afcb2-f43d-41fd-b815-00ef6d0cab67",
+            "type": "CLOZE",
+            "prompt": "等____的时候我继续看菜单，发现有些菜写着“辣”，我不太能吃辣，就没点。",
+            "options": [
+              "菜",
+              "饭",
+              "汤",
+              "水"
+            ],
+            "answer": "菜",
+            "explanation": "根据上下文，“等菜”指的是等待上菜，符合餐厅用餐情境。",
+            "target_word": "菜"
+          },
+          {
+            "qid": "987d133c-a72a-48d2-b93b-a0200675a32c",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '菜' 的正确意思？",
+            "options": [
+              "一道烹饪好的食物",
+              "一种饮料",
+              "一种餐具",
+              "一种餐桌礼仪"
+            ],
+            "answer": "一道烹饪好的食物",
+            "explanation": "在文中，“西红柿炒鸡蛋”“青椒炒肉”等都是具体的菜肴，因此‘菜’指的是一道做好的食物。",
+            "target_word": "菜"
+          },
+          {
+            "qid": "3fbc32ee-f021-4ad6-b709-d7ff9b8ac54e",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：等菜的时候我继续看菜单，发现有些菜写着“辣”，我不太能吃辣，就没点。",
+            "options": null,
+            "answer": "While waiting for the dishes, I continued looking at the menu and found that some dishes were marked as 'spicy,' but since I can't handle spicy food well, I didn't order them.",
+            "explanation": "翻译时需注意‘等菜’译为'waiting for the dishes'，‘写着’可用'marked as'表达，整句要保持语义连贯。",
+            "target_word": "菜"
+          }
+        ]
+      },
+      {
+        "word_id": "6",
+        "word": "鱼",
+        "questions": [
+          {
+            "qid": "761642b8-595d-43be-9394-1484ea5b4d35",
+            "type": "CLOZE",
+            "prompt": "我看到“汤”类，有“鸡蛋汤”和“____汤”，看起来都很香。",
+            "options": [
+              "鱼",
+              "肉",
+              "菜",
+              "面"
+            ],
+            "answer": "鱼",
+            "explanation": "文中提到‘鱼汤’是汤类的一种，因此空格处应填‘鱼’。",
+            "target_word": "鱼"
+          },
+          {
+            "qid": "2ac07407-0085-4e47-b294-5d039792e662",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '鱼' 的正确意思？",
+            "options": [
+              "一种水生动物，常作为食物",
+              "一种蔬菜",
+              "一种饮料",
+              "一种米饭"
+            ],
+            "answer": "一种水生动物，常作为食物",
+            "explanation": "‘鱼’指的是生活在水里的动物，常被用来做菜，如文中的‘鱼汤’。",
+            "target_word": "鱼"
+          },
+          {
+            "qid": "a626c8b5-794e-4684-999d-841cd1815cc1",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我看到了鱼汤。",
+            "options": null,
+            "answer": "I saw fish soup.",
+            "explanation": "‘鱼汤’翻译为‘fish soup’，句子结构简单，主语+动词+宾语。",
+            "target_word": "鱼"
+          }
+        ]
+      },
+      {
+        "word_id": "7",
+        "word": "贵",
+        "questions": [
+          {
+            "qid": "a1040190-01d8-4e62-ac71-d7915bc30353",
+            "type": "CLOZE",
+            "prompt": "朋友说鱼汤比较____，但鸡蛋汤很便宜，我就点了鸡蛋汤。",
+            "options": [
+              "贵",
+              "便宜",
+              "辣",
+              "香"
+            ],
+            "answer": "贵",
+            "explanation": "根据上下文，鱼汤和鸡蛋汤形成对比，说明鱼汤价格高，所以用“贵”。",
+            "target_word": "贵"
+          },
+          {
+            "qid": "1fbaa9b4-005d-4ce5-9f93-0b8cfc80da54",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '贵' 的正确意思？",
+            "options": [
+              "价格高",
+              "味道好",
+              "分量少",
+              "颜色深"
+            ],
+            "answer": "价格高",
+            "explanation": "“贵”在文中用来描述商品的价格高，如‘鱼汤比较贵’‘咖啡不贵’，都指价格高低。",
+            "target_word": "贵"
+          },
+          {
+            "qid": "89976628-7827-40e7-aea1-bf5d303ff34d",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：服务员告诉我咖啡不贵，一杯才18元，价格挺合适。",
+            "options": null,
+            "answer": "The waiter told me the coffee wasn't expensive, only 18 yuan per cup, so the price was quite reasonable.",
+            "explanation": "翻译时需准确表达‘不贵’为‘not expensive’，并体现价格合理之意。",
+            "target_word": "贵"
+          }
+        ]
+      },
+      {
+        "word_id": "8",
+        "word": "汤",
+        "questions": [
+          {
+            "qid": "293fd123-a88a-4472-9125-3d6b5de964eb",
+            "type": "CLOZE",
+            "prompt": "我看到“汤”类，有“鸡蛋____”和“鱼汤”，看起来都很香。",
+            "options": [
+              "汤",
+              "面",
+              "饭",
+              "菜"
+            ],
+            "answer": "汤",
+            "explanation": "根据文章内容，'鸡蛋汤'是一道具体的汤类菜品，因此空格处应填入'汤'。",
+            "target_word": "汤"
+          },
+          {
+            "qid": "b791d445-ea28-4d4c-99e1-eb8d71e66a45",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '汤' 的正确意思？",
+            "options": [
+              "用食材煮成的液体食物",
+              "炒熟的蔬菜",
+              "米饭的一种",
+              "甜点名称"
+            ],
+            "answer": "用食材煮成的液体食物",
+            "explanation": "'汤'在中文中指的是用水煮食材制成的液态食物，如文中的'鸡蛋汤'和'鱼汤'都是典型的例子。",
+            "target_word": "汤"
+          },
+          {
+            "qid": "b6b60fe9-c063-44bb-8db6-facba91912fa",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我点了鸡蛋汤。",
+            "options": null,
+            "answer": "I ordered egg soup.",
+            "explanation": "句子中的'鸡蛋汤'对应英文为'egg soup'，动词'点'在此语境下表示点餐，翻译为'ordered'。",
+            "target_word": "汤"
+          }
+        ]
+      },
+      {
+        "word_id": "9",
+        "word": "米饭",
+        "questions": [
+          {
+            "qid": "14dc613e-3fbc-470a-9324-7a49374b6174",
+            "type": "CLOZE",
+            "prompt": "最后我的面条儿、鸡蛋汤和____都上来了，分量足，味道好，总共才花了不到50元，真划算！",
+            "options": [
+              "米饭",
+              "面条儿",
+              "鱼汤",
+              "咖啡"
+            ],
+            "answer": "米饭",
+            "explanation": "根据文章内容，'米饭'是作为主食之一被端上来的，与面条儿和鸡蛋汤并列。",
+            "target_word": "米饭"
+          },
+          {
+            "qid": "701080be-ccdc-41bd-91da-1ce82b1b2896",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '米饭' 的正确意思？",
+            "options": [
+              "煮熟的大米",
+              "生米",
+              "米粥",
+              "炒面"
+            ],
+            "answer": "煮熟的大米",
+            "explanation": "'米饭'指的是将大米加水煮熟后的食物，在中文里常作为主食。",
+            "target_word": "米饭"
+          },
+          {
+            "qid": "b931676c-c89e-46ee-916c-830f0a9ff376",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：最后我的面条儿、鸡蛋汤和米饭都上来了，分量足，味道好，总共才花了不到50元，真划算！",
+            "options": null,
+            "answer": "Finally, my noodles, egg soup, and rice arrived. The portions were generous, the taste was great, and I spent less than 50 yuan in total. What a good deal!",
+            "explanation": "翻译时需注意'面条儿'译为'noodles'即可，'米饭'对应'rice'，并保持原句的感叹语气表达满意之情。",
+            "target_word": "米饭"
+          }
+        ]
+      },
+      {
+        "word_id": "10",
+        "word": "面条儿",
+        "questions": [
+          {
+            "qid": "606cb97e-5b51-4abd-80a2-205aebef564e",
+            "type": "CLOZE",
+            "prompt": "最后我的____、鸡蛋汤和米饭都上来了，分量足，味道好，总共才花了不到50元，真划算！",
+            "options": [
+              "面条儿",
+              "米饭",
+              "鸡蛋汤",
+              "咖啡"
+            ],
+            "answer": "面条儿",
+            "explanation": "根据文章内容，'面条儿'是主食之一，且作者明确提到点了鸡肉面，因此空格处应填'面条儿'。",
+            "target_word": "面条儿"
+          },
+          {
+            "qid": "2e6de720-d5b7-4ad5-b2e5-4eea419caccb",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '面条儿' 的正确意思？",
+            "options": [
+              "一种用面粉做的细长食物",
+              "一种饮料",
+              "一种甜点",
+              "一种肉类"
+            ],
+            "answer": "一种用面粉做的细长食物",
+            "explanation": "'面条儿'指的是由面粉制成的条状主食，在中文中常作为餐食的一部分，文中也提到它是主食之一。",
+            "target_word": "面条儿"
+          },
+          {
+            "qid": "e82b686b-83d3-4005-96e1-e935a10b9c97",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我点了面条儿、鸡蛋汤和米饭。",
+            "options": null,
+            "answer": "I ordered noodles, egg soup, and rice.",
+            "explanation": "注意'面条儿'在口语中常翻译为'noodles'，无需直译为'noodlear'；句子结构简单，使用order表示点餐动作。",
+            "target_word": "面条儿"
+          }
+        ]
+      },
+      {
+        "word_id": "11",
+        "word": "肉",
+        "questions": [
+          {
+            "qid": "a0a96afb-ad62-43b9-b456-23bfc21e9aa1",
+            "type": "CLOZE",
+            "prompt": "我看到“菜”这个字出现了很多次，比如“西红柿炒鸡蛋”“青椒炒____”",
+            "options": [
+              "肉",
+              "鱼",
+              "菜",
+              "饭"
+            ],
+            "answer": "肉",
+            "explanation": "文中提到‘青椒炒肉’是一道菜名，因此空格处应填‘肉’。",
+            "target_word": "肉"
+          },
+          {
+            "qid": "fa4917b9-76a6-415e-83dd-2e1cece04a61",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '肉' 的正确意思？",
+            "options": [
+              "动物的肌肉组织，可食用",
+              "植物的叶子",
+              "米饭的一种",
+              "喝的汤"
+            ],
+            "answer": "动物的肌肉组织，可食用",
+            "explanation": "'肉'在中文中指可以吃的动物肉，如猪肉、牛肉等，是常见的食材。",
+            "target_word": "肉"
+          },
+          {
+            "qid": "49cd6851-3670-4658-bad1-2ba5ccef85c8",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：青椒炒肉",
+            "options": null,
+            "answer": "Stir-fried green peppers with meat",
+            "explanation": "翻译时要注意‘炒’译为‘stir-fried’，‘青椒’是‘green peppers’，‘肉’是‘meat’，整体为一道菜名。",
+            "target_word": "肉"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "2",
+    "lesson_name": "点餐对话",
+    "passage": {
+      "lesson_id": "2",
+      "text": "中午我来到学校附近的食堂吃饭。一进门，服务员就笑着对我说：“欢迎光临，请这里坐下。”我点点头，找了个靠窗的位置坐下来。服务员递给我菜单，说：“请看菜。”我看了看，想吃米饭和青椒炒肉，但我不吃辣，所以对服务员说：“我要米饭和青椒炒肉，不要辣，可以吗？”服务员笑着说：“可以的。”  \n\n这时手机响了，是朋友问我到哪儿了。我简单说了两句就挂了。然后我问服务员：“一共多少钱？”她看了看菜单说：“二十八元。”我拿出钱包准备付钱，又问：“可以支付手机吗？”服务员摇摇头：“对不起，只收现金。”我点点头，从钱包里数出二十八元，把钱递过去，说：“谢谢，这是买饭的钱。”  \n\n服务员接过钱，很快就把饭菜端来了。我开心地说：“谢谢！”她也笑着说：“不客气，慢用。”  \n\n吃完饭，我把餐盘放回指定位置，心情很好。今天不仅吃得饱，还练习了点餐对话，真是一次不错的经历！",
+      "tokens_est": 376,
+      "covered_words": [
+        "手机",
+        "可以",
+        "这里",
+        "多少",
+        "请",
+        "钱",
+        "坐下",
+        "员（服务员）",
+        "不要",
+        "菜",
+        "买",
+        "支付",
+        "要",
+        "谢谢",
+        "现金"
+      ]
+    },
+    "vocab_packages": [
+      {
+        "word_id": "0",
+        "word": "手机",
+        "questions": [
+          {
+            "qid": "865371f7-255f-426c-a057-99aa59ecfd86",
+            "type": "CLOZE",
+            "prompt": "这时____响了，是朋友问我到哪儿了。",
+            "options": [
+              "手机",
+              "钱包",
+              "手表",
+              "书包"
+            ],
+            "answer": "手机",
+            "explanation": "根据上下文，接到朋友电话的是‘手机’，其他选项不符合语境。",
+            "target_word": "手机"
+          },
+          {
+            "qid": "f9b75158-f328-40ef-93c2-5aa0c31ee28b",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '手机' 的正确意思？",
+            "options": [
+              "一种可以打电话和上网的便携式电子设备",
+              "用来装钱的小包",
+              "吃饭用的工具",
+              "学校里的学习用品"
+            ],
+            "answer": "一种可以打电话和上网的便携式电子设备",
+            "explanation": "‘手机’即移动电话，具备通话、上网等功能，是现代人常用的通讯工具。",
+            "target_word": "手机"
+          },
+          {
+            "qid": "ade7df96-1390-49b4-9b86-c73bcceb01a7",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：这时手机响了，是朋友问我到哪儿了。",
+            "options": null,
+            "answer": "Then the phone rang, and a friend was asking me where I was.",
+            "explanation": "注意‘手机’在英文中常用‘phone’表达，此处指来电动作，需使用过去时态‘rang’。",
+            "target_word": "手机"
+          }
+        ]
+      },
+      {
+        "word_id": "1",
+        "word": "可以",
+        "questions": [
+          {
+            "qid": "625cd99c-e918-4636-9641-858b68b3fb44",
+            "type": "CLOZE",
+            "prompt": "从文章中选择一个包含目标词的句子，并将目标词替换为____。我问服务员：‘可以支付手机吗？’服务员摇摇头：‘对不起，只收现金。’",
+            "options": [
+              "可以",
+              "能够",
+              "应该",
+              "必须"
+            ],
+            "answer": "可以",
+            "explanation": "‘可以’表示允许或具备某种条件做某事，此处询问是否被允许用手机支付，符合语境。",
+            "target_word": "可以"
+          },
+          {
+            "qid": "aec31015-1d69-49ae-84a4-108f56f855c2",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '可以' 的正确意思？",
+            "options": [
+              "表示允许或有能力做某事",
+              "表示必须完成某事",
+              "表示拒绝别人的请求",
+              "表示时间上来得及"
+            ],
+            "answer": "表示允许或有能力做某事",
+            "explanation": "‘可以’在文中用于请求许可（如‘可以吗？’）和表示允许（‘可以的’），核心意思是允许或具备条件做某事。",
+            "target_word": "可以"
+          },
+          {
+            "qid": "864068e0-b88d-45a0-a5cd-6ecd7c1f2ab4",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我要米饭和青椒炒肉，不要辣，可以吗？",
+            "options": null,
+            "answer": "I want rice and stir-fried green pepper with meat, no spicy, is that okay?",
+            "explanation": "翻译时需保留请求语气，'can I have...?' 或 'is that okay?' 都可表达‘可以吗’的委婉请求，这里用后者更自然。",
+            "target_word": "可以"
+          }
+        ]
+      },
+      {
+        "word_id": "2",
+        "word": "这里",
+        "questions": [
+          {
+            "qid": "7b2ef21d-8421-4e82-8c87-e008fe903a1d",
+            "type": "CLOZE",
+            "prompt": "服务员就笑着对我说：“欢迎光临，请____坐下。”",
+            "options": [
+              "这里",
+              "那里",
+              "哪里",
+              "那里"
+            ],
+            "answer": "这里",
+            "explanation": "‘这里’表示说话人所在的位置或靠近说话人的地方，服务员引导顾客坐在附近的位置。",
+            "target_word": "这里"
+          },
+          {
+            "qid": "1fcf0b41-96da-4c0b-84b1-e859a5ac74ad",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '这里' 的正确意思？",
+            "options": [
+              "指代说话人附近的地方",
+              "指代听话人来自的地方",
+              "疑问词，询问地点",
+              "指代很远的地方"
+            ],
+            "answer": "指代说话人附近的地方",
+            "explanation": "‘这里’用于指示离说话人较近的地点，在文中服务员让顾客在附近坐下，符合此意。",
+            "target_word": "这里"
+          },
+          {
+            "qid": "0250f129-90a5-45e1-b604-47754203936e",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：一进门，服务员就笑着对我说：“欢迎光临，请这里坐下。”",
+            "options": null,
+            "answer": "As soon as I entered, the server smiled and said to me, \"Welcome, please sit here.\"",
+            "explanation": "‘这里’翻译为 'here'，表示让顾客在当前位置附近入座，注意语境中‘这里’对应英文的 'here'。",
+            "target_word": "这里"
+          }
+        ]
+      },
+      {
+        "word_id": "3",
+        "word": "多少",
+        "questions": [
+          {
+            "qid": "5645e191-08ff-4939-b347-f7171a7fe1ad",
+            "type": "CLOZE",
+            "prompt": "从文章中选择一个包含目标词的句子，并将目标词替换为____。我问服务员：“一共____钱？”",
+            "options": [
+              "多少",
+              "几多",
+              "若干",
+              "几何"
+            ],
+            "answer": "多少",
+            "explanation": "‘多少’用于询问数量或价格，在文中用来问总金额，符合语境。",
+            "target_word": "多少"
+          },
+          {
+            "qid": "6ba52879-97a5-4536-acb9-806611879e3c",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '多少' 的正确意思？",
+            "options": [
+              "询问数量或价格",
+              "表示程度很高",
+              "表示时间很长",
+              "表示不确定的时间"
+            ],
+            "answer": "询问数量或价格",
+            "explanation": "‘多少’常用于疑问句中，用来询问事物的数量或价钱，如文中‘一共多少钱’。",
+            "target_word": "多少"
+          },
+          {
+            "qid": "85d7bd80-8536-44db-9a60-f21038f11f5f",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：[包含目标词的中文例句]",
+            "options": null,
+            "answer": "I asked the server, \"How much is it altogether?\"",
+            "explanation": "‘多少’在此句中用于询问总价，翻译为 'How much' 是最自然准确的表达。",
+            "target_word": "多少"
+          }
+        ]
+      },
+      {
+        "word_id": "4",
+        "word": "请",
+        "questions": [
+          {
+            "qid": "f2e8d98c-9110-4feb-bb72-0e24eb52082b",
+            "type": "CLOZE",
+            "prompt": "服务员递给我菜单，说：“____看菜。”",
+            "options": [
+              "请",
+              "想",
+              "要",
+              "能"
+            ],
+            "answer": "请",
+            "explanation": "‘请’用于礼貌地邀请或请求对方做某事，这里服务员礼貌地请顾客看菜单。",
+            "target_word": "请"
+          },
+          {
+            "qid": "d6b393cc-133f-4af1-9623-7fae6bd27094",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '请' 的正确意思？",
+            "options": [
+              "礼貌地请求或邀请",
+              "表示原因",
+              "表示时间",
+              "表示结果"
+            ],
+            "answer": "礼貌地请求或邀请",
+            "explanation": "‘请’常用于表达礼貌的请求或邀请，如‘请坐’‘请看’等，体现说话人的尊重和客气。",
+            "target_word": "请"
+          },
+          {
+            "qid": "a373f6e4-1c96-4b8b-9620-2edccf34b44e",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：服务员笑着说：‘可以的。’然后说：‘请稍等。’",
+            "options": null,
+            "answer": "The server smiled and said, 'That's fine.' Then she said, 'Please wait a moment.'",
+            "explanation": "‘请’在句中表示礼貌地请求对方等待，翻译为'please'，体现语气的礼貌和委婉。",
+            "target_word": "请"
+          }
+        ]
+      },
+      {
+        "word_id": "5",
+        "word": "钱",
+        "questions": [
+          {
+            "qid": "eb15ddf8-caf2-448d-a1c0-85ca33b1c0ef",
+            "type": "CLOZE",
+            "prompt": "我从钱包里数出二十八元，把____递过去，说：“谢谢，这是买饭的钱。”",
+            "options": [
+              "钱",
+              "手机",
+              "菜单",
+              "餐盘"
+            ],
+            "answer": "钱",
+            "explanation": "根据上下文，付的是饭钱，所以应填‘钱’。",
+            "target_word": "钱"
+          },
+          {
+            "qid": "87854bd4-4194-495a-8f30-549876461b59",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '钱' 的正确意思？",
+            "options": [
+              "用于购买物品的货币",
+              "吃饭的地方",
+              "通信工具",
+              "交通工具"
+            ],
+            "answer": "用于购买物品的货币",
+            "explanation": "‘钱’指的是货币，用来交换商品或服务。",
+            "target_word": "钱"
+          },
+          {
+            "qid": "b8df4654-d285-4d10-9b2f-bbf6e79e06c2",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：谢谢，这是买饭的钱。",
+            "options": null,
+            "answer": "Thank you, this is the money for the meal.",
+            "explanation": "注意‘买饭的钱’要准确译为'the money for the meal'，表达用途。",
+            "target_word": "钱"
+          }
+        ]
+      },
+      {
+        "word_id": "6",
+        "word": "坐下",
+        "questions": [
+          {
+            "qid": "1a9d6da2-0f2d-4369-a41e-b9992d3e81bc",
+            "type": "CLOZE",
+            "prompt": "服务员就笑着对我说：“欢迎光临，请这里____。”",
+            "options": [
+              "坐下",
+              "站好",
+              "走开",
+              "过来"
+            ],
+            "answer": "坐下",
+            "explanation": "根据上下文，服务员是请顾客入座，因此应选择“坐下”。",
+            "target_word": "坐下"
+          },
+          {
+            "qid": "d86a5dd9-91f4-41b1-87cd-800a8c39ca1e",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '坐下' 的正确意思？",
+            "options": [
+              "让人把屁股放在椅子或座位上",
+              "让人站起来",
+              "让人离开房间",
+              "让人挥手打招呼"
+            ],
+            "answer": "让人把屁股放在椅子或座位上",
+            "explanation": "'坐下' 是一个动作指令，意思是让某人停止站立，将身体坐到座位上。",
+            "target_word": "坐下"
+          },
+          {
+            "qid": "f837d89d-ea9b-432e-bb2b-7484d2728402",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：服务员就笑着对我说：“欢迎光临，请这里坐下。”",
+            "options": null,
+            "answer": "The waiter smiled and said to me, 'Welcome, please have a seat here.'",
+            "explanation": "‘请这里坐下’翻译为 'please have a seat here' 更符合英语表达习惯，比直译更自然。",
+            "target_word": "坐下"
+          }
+        ]
+      },
+      {
+        "word_id": "7",
+        "word": "员（服务员）",
+        "questions": [
+          {
+            "qid": "940d83dc-3e86-4c16-9cbd-0a8810325df3",
+            "type": "CLOZE",
+            "prompt": "从文章中选择一个包含目标词的句子，并将目标词替换为____。我点点头，从钱包里数出二十八元，把钱递过去，说：“谢谢，这是买饭的钱。” ____接过钱，很快就把饭菜端来了。",
+            "options": [
+              "服务员",
+              "厨师",
+              "顾客",
+              "经理"
+            ],
+            "answer": "服务员",
+            "explanation": "根据上下文，是服务员收了钱并上菜，因此正确答案是‘服务员’。",
+            "target_word": "服务员"
+          },
+          {
+            "qid": "b8d17334-0fec-4097-ba28-d8e7cf73a0e0",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '服务员' 的正确意思？",
+            "options": [
+              "在餐厅为顾客提供点餐和上菜服务的人",
+              "负责做饭的厨师",
+              "来餐厅吃饭的客人",
+              "餐厅的老板"
+            ],
+            "answer": "在餐厅为顾客提供点餐和上菜服务的人",
+            "explanation": "‘服务员’指的是在餐厅、酒店等场所为顾客提供点餐、上菜、结账等服务的工作人员，因此这个释义最准确。",
+            "target_word": "服务员"
+          },
+          {
+            "qid": "61220bf7-ffbc-409e-a259-5aab12c5a93e",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：服务员笑着说：‘不客气，慢用。’",
+            "options": null,
+            "answer": "The server smiled and said, 'You're welcome, please enjoy your meal.'",
+            "explanation": "‘服务员’译为 'server' 或 'waiter/waitress'，‘不客气’对应 'You're welcome'，‘慢用’是礼貌用语，常译为 'please enjoy your meal'。",
+            "target_word": "服务员"
+          }
+        ]
+      },
+      {
+        "word_id": "8",
+        "word": "不要",
+        "questions": [
+          {
+            "qid": "cae05668-c4c3-41be-b096-35457cb8221c",
+            "type": "CLOZE",
+            "prompt": "从文章中选择一个包含目标词的句子，并将目标词替换为____。我想要米饭和青椒炒肉，____辣，可以吗？",
+            "options": [
+              "不要",
+              "没要",
+              "不想",
+              "没有"
+            ],
+            "answer": "不要",
+            "explanation": "根据上下文，说话人明确表示不吃辣，用‘不要’来表达拒绝或排除某种成分，符合语境。",
+            "target_word": "不要"
+          },
+          {
+            "qid": "6ef290da-d210-418c-8548-9d6d56b9fb6f",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '不要' 的正确意思？",
+            "options": [
+              "表示拒绝或禁止",
+              "表示非常喜欢",
+              "表示犹豫不决",
+              "表示请求帮助"
+            ],
+            "answer": "表示拒绝或禁止",
+            "explanation": "‘不要’用于表达否定意愿，拒绝某事或禁止某种行为，在文中用来表示不想加辣。",
+            "target_word": "不要"
+          },
+          {
+            "qid": "9b2acfa3-cac5-4b85-93b4-fb7966c1d866",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：[包含目标词的中文例句]",
+            "options": null,
+            "answer": "I want rice and stir-fried green peppers with meat, but no spicy, okay?",
+            "explanation": "翻译时需注意‘不要’在此处表示对辣味的排除，可用'no spicy'或'don't want any spice'表达，整体语气礼貌自然。",
+            "target_word": "不要"
+          }
+        ]
+      },
+      {
+        "word_id": "9",
+        "word": "菜",
+        "questions": [
+          {
+            "qid": "43601269-eee5-4d22-836c-32d570700c62",
+            "type": "CLOZE",
+            "prompt": "我看了看，想吃米饭和青椒炒肉，但我不吃辣，所以对服务员说：“我要米饭和青椒炒肉，不要____，可以吗？”",
+            "options": [
+              "菜",
+              "饭",
+              "肉",
+              "辣"
+            ],
+            "answer": "菜",
+            "explanation": "此处‘菜’指菜单上的菜肴，符合上下文点餐场景。",
+            "target_word": "菜"
+          },
+          {
+            "qid": "55d6193a-55c7-4c56-9d45-e7df62cb480b",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '菜' 的正确意思？",
+            "options": [
+              "指供食用的蔬菜或菜肴",
+              "指做饭的人",
+              "指吃饭的地方",
+              "指使用的工具"
+            ],
+            "answer": "指供食用的蔬菜或菜肴",
+            "explanation": "在文中‘青椒炒肉’是一道菜，因此‘菜’指的是可以食用的菜肴。",
+            "target_word": "菜"
+          },
+          {
+            "qid": "0a218d46-8e2f-491a-9679-564b41d5409a",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：请看菜。",
+            "options": null,
+            "answer": "Please look at the menu.",
+            "explanation": "这里的‘菜’不是单指蔬菜，而是指可供选择的菜肴列表，因此翻译为‘menu’更符合语境。",
+            "target_word": "菜"
+          }
+        ]
+      },
+      {
+        "word_id": "10",
+        "word": "买",
+        "questions": [
+          {
+            "qid": "f8108869-d316-43eb-a228-5afab9d23683",
+            "type": "CLOZE",
+            "prompt": "我从钱包里数出二十八元，把钱递过去，说：‘谢谢，这是____饭的钱。’",
+            "options": [
+              "买",
+              "卖",
+              "吃",
+              "付"
+            ],
+            "answer": "买",
+            "explanation": "‘买’表示用钱换取物品，在文中指支付饭钱来获得食物。",
+            "target_word": "买"
+          },
+          {
+            "qid": "d979035b-e651-46ae-a757-3645f0bcf968",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '买' 的正确意思？",
+            "options": [
+              "用钱换取商品",
+              "把东西卖给别人",
+              "免费获得物品",
+              "借东西使用"
+            ],
+            "answer": "用钱换取商品",
+            "explanation": "‘买’是指自己出钱从别人那里获得商品或服务，文中‘买饭’即为此意。",
+            "target_word": "买"
+          },
+          {
+            "qid": "6c45eaaf-7191-4674-8b18-089a6ec653f5",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：谢谢，这是买饭的钱。",
+            "options": null,
+            "answer": "Thank you, this is the money for buying the meal.",
+            "explanation": "翻译时需注意‘买饭的钱’应译为'the money for buying the meal'，准确表达购买行为。",
+            "target_word": "买"
+          }
+        ]
+      },
+      {
+        "word_id": "11",
+        "word": "支付",
+        "questions": [
+          {
+            "qid": "e9954c26-e998-45e0-9e80-511e34d7adaa",
+            "type": "CLOZE",
+            "prompt": "我问服务员：‘可以____手机吗？’",
+            "options": [
+              "支付",
+              "花费",
+              "付款",
+              "消费"
+            ],
+            "answer": "支付",
+            "explanation": "‘支付’表示用某种方式付钱，文中指是否能用手机付钱。",
+            "target_word": "支付"
+          },
+          {
+            "qid": "31933f2c-576e-41ea-a404-7ddf524a9a97",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '支付' 的正确意思？",
+            "options": [
+              "把钱给别人来换取商品或服务",
+              "计算一共花了多少钱",
+              "查看价格",
+              "决定买不买"
+            ],
+            "answer": "把钱给别人来换取商品或服务",
+            "explanation": "‘支付’强调的是完成付款的动作，即把钱交出去以获得服务或物品。",
+            "target_word": "支付"
+          },
+          {
+            "qid": "9b258852-8d82-4a5e-8e75-42dc7a67d339",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：可以支付手机吗？",
+            "options": null,
+            "answer": "Can I pay with my phone?",
+            "explanation": "‘支付’在这里翻译为'pay'，‘用手机’对应'with my phone'，整句是询问支付方式。",
+            "target_word": "支付"
+          }
+        ]
+      },
+      {
+        "word_id": "12",
+        "word": "要",
+        "questions": [
+          {
+            "qid": "926563e9-8582-43a2-895a-9279bd6ec1b9",
+            "type": "CLOZE",
+            "prompt": "我____米饭和青椒炒肉，不要辣，可以吗？",
+            "options": [
+              "要",
+              "想",
+              "有",
+              "吃"
+            ],
+            "answer": "要",
+            "explanation": "在点餐时，'要'表示选择或决定某样食物，符合语境。",
+            "target_word": "要"
+          },
+          {
+            "qid": "e18cb357-5b2b-41c5-b14c-af4a3ec22ca6",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '要' 的正确意思？",
+            "options": [
+              "表示需要或想要",
+              "表示已经拥有",
+              "表示拒绝某事",
+              "表示时间很紧"
+            ],
+            "answer": "表示需要或想要",
+            "explanation": "'要'在此文中用于表达点餐时的选择，即‘想要’某种食物，因此正确意思是‘表示需要或想要’。",
+            "target_word": "要"
+          },
+          {
+            "qid": "6a00487a-0439-443b-8412-e572e79834c9",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我要米饭和青椒炒肉，不要辣，可以吗？",
+            "options": null,
+            "answer": "I want rice and green pepper with stir-fried meat, no spice, is that okay?",
+            "explanation": "翻译时需准确传达‘要’作为‘want’的意思，并保留请求语气‘可以吗’译为‘is that okay’。",
+            "target_word": "要"
+          }
+        ]
+      },
+      {
+        "word_id": "13",
+        "word": "谢谢",
+        "questions": [
+          {
+            "qid": "a9d68097-d304-4005-ac67-c8d84f059bb5",
+            "type": "CLOZE",
+            "prompt": "我开心地说：‘____！’她也笑着说：‘不客气，慢用。’",
+            "options": [
+              "谢谢",
+              "你好",
+              "再见",
+              "对不起"
+            ],
+            "answer": "谢谢",
+            "explanation": "根据上下文，吃饭后表达感谢，应使用‘谢谢’。",
+            "target_word": "谢谢"
+          },
+          {
+            "qid": "dd360354-f9ca-441e-b88c-2f9d814cbe44",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '谢谢' 的正确意思？",
+            "options": [
+              "表达感激之情",
+              "打招呼用语",
+              "表示道歉",
+              "告别用语"
+            ],
+            "answer": "表达感激之情",
+            "explanation": "‘谢谢’用于表达对他人帮助或服务的感谢，核心意思是感激。",
+            "target_word": "谢谢"
+          },
+          {
+            "qid": "cf4d2b56-4049-430a-af48-ef12404cad18",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：服务员接过钱，很快就把饭菜端来了。我开心地说：‘谢谢！’",
+            "options": null,
+            "answer": "The server took the money and quickly brought the food. I happily said, 'Thank you!'",
+            "explanation": "‘谢谢’在口语中对应英文的'Thank you'，用于表达即时感谢，需注意时态和语境一致。",
+            "target_word": "谢谢"
+          }
+        ]
+      },
+      {
+        "word_id": "14",
+        "word": "现金",
+        "questions": [
+          {
+            "qid": "4b4e5316-626c-44e5-8205-d8e0cd6423d9",
+            "type": "CLOZE",
+            "prompt": "服务员摇摇头：‘对不起，只收____。’",
+            "options": [
+              "现金",
+              "手机",
+              "信用卡",
+              "支付宝"
+            ],
+            "answer": "现金",
+            "explanation": "根据上下文，服务员表示只能用现金支付，因此正确答案是‘现金’。",
+            "target_word": "现金"
+          },
+          {
+            "qid": "d2028468-82dc-4f98-aa28-0a9a7340f7ec",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '现金' 的正确意思？",
+            "options": [
+              "纸币和硬币形式的钱",
+              "通过手机转账的电子货币",
+              "银行卡里的存款",
+              "可以赊账的信用额度"
+            ],
+            "answer": "纸币和硬币形式的钱",
+            "explanation": "‘现金’指的是实际持有的纸币和硬币，而不是电子支付或信用形式。",
+            "target_word": "现金"
+          },
+          {
+            "qid": "bcbcccde-a707-4063-a77a-0035eb50a91e",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：谢谢，这是买饭的钱。",
+            "options": null,
+            "answer": "Thank you, this is the money for the meal.",
+            "explanation": "句子中的‘钱’在语境中指用现金支付餐费，翻译时需体现其具体用途。",
+            "target_word": "现金"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "3",
+    "lesson_name": "情景模拟",
+    "passage": {
+      "lesson_id": "3",
+      "text": "今天我和朋友去吃午饭。我们走进一家小餐厅，服务员很快带我们到一个靠窗的座位坐下。菜单放在桌上，我翻了翻，发现菜式很多，一样一样地看着挺好吃。朋友说：“你想吃什么？”我说：“我喜欢吃甜的，但不要太甜。”  \n\n我看中了一道糖醋排骨，可不知道多少钱，就问服务员：“这个多少钱？”她说：“38元。”我又问：“米饭几元？”她回答：“米饭2元，正常一碗。”我说：“来一盘排骨，外加一碗米饭。”朋友说他不吃葱，要一份不要葱的炒青菜。我补充说：“我的菜也少放盐，不行的话太咸了。”服务员点点头，重复了一遍订单，确认无误。  \n\n过了一会儿，菜上来了，闻起来很香。我们吃得特别开心。吃完后，我问：“一共多少钱？”服务员说：“38加2，一共40元。”我掏出50元给她，她找回10元。  \n\n走出餐厅时，朋友说：“这家味道真不错！”我也觉得下次还想来。原来自己点菜、问价格、提要求也没那么难，只要勇敢开口，一切都很简单！",
+      "tokens_est": 400,
+      "covered_words": [
+        "一样",
+        "喜欢",
+        "不行",
+        "元",
+        "正常",
+        "一共",
+        "有（一）点儿",
+        "甜",
+        "很",
+        "几",
+        "座位",
+        "外",
+        "太"
+      ]
+    },
+    "vocab_packages": [
+      {
+        "word_id": "0",
+        "word": "一样",
+        "questions": [
+          {
+            "qid": "874079f5-d156-46cb-8b64-f12d6bed24c4",
+            "type": "CLOZE",
+            "prompt": "我翻了翻，发现菜式很多，____地看着挺好吃。",
+            "options": [
+              "一样",
+              "一起",
+              "一般",
+              "一种"
+            ],
+            "answer": "一样",
+            "explanation": "‘一样一样地’表示逐一、每一样都看起来好吃，符合上下文描述点菜时浏览菜单的情景。",
+            "target_word": "一样"
+          },
+          {
+            "qid": "6d9cade9-b6fa-4384-b6b4-a35b92572374",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '一样' 的正确意思？",
+            "options": [
+              "每一个，逐一",
+              "相同的",
+              "不同的",
+              "一种类型"
+            ],
+            "answer": "每一个，逐一",
+            "explanation": "在文中‘一样一样地看着挺好吃’中，‘一样’强调逐一看过去，每一样都诱人，因此意为‘每一个，逐一’。",
+            "target_word": "一样"
+          },
+          {
+            "qid": "58b5c1f2-ce8e-409a-9409-e452fe7fc7e8",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我翻了翻，发现菜式很多，一样一样地看着挺好吃。",
+            "options": null,
+            "answer": "I flipped through the menu and found many dishes, each one looking delicious.",
+            "explanation": "‘一样一样地’在此处译为‘each one’，准确传达出逐一查看、每道菜都诱人的语义。",
+            "target_word": "一样"
+          }
+        ]
+      },
+      {
+        "word_id": "1",
+        "word": "喜欢",
+        "questions": [
+          {
+            "qid": "c167fd09-1a3b-49cf-ba4b-097500970750",
+            "type": "CLOZE",
+            "prompt": "朋友说：“你想吃什么？”我说：“我____吃甜的，但不要太甜。”",
+            "options": [
+              "喜欢",
+              "讨厌",
+              "需要",
+              "学习"
+            ],
+            "answer": "喜欢",
+            "explanation": "根据上下文，说话人表达的是对甜食的偏好，因此用“喜欢”最合适。",
+            "target_word": "喜欢"
+          },
+          {
+            "qid": "42f65e93-532d-4548-bd6e-bb8335248784",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '喜欢' 的正确意思？",
+            "options": [
+              "对某事物有好感或感兴趣",
+              "对某事物感到害怕",
+              "认为某事物很贵",
+              "想要忘记某事物"
+            ],
+            "answer": "对某事物有好感或感兴趣",
+            "explanation": "‘喜欢’表示对人或事物有正面的情感倾向，文中‘我喜欢吃甜的’正是表达个人口味偏好。",
+            "target_word": "喜欢"
+          },
+          {
+            "qid": "314ef9f3-2c66-4462-985d-d11f6ff0f9c8",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我喜欢吃甜的，但不要太甜。",
+            "options": null,
+            "answer": "I like to eat sweet food, but not too sweet.",
+            "explanation": "注意‘喜欢’翻译为‘like’，‘吃甜的’可译为‘eat sweet food’，后半句用but连接转折关系。",
+            "target_word": "喜欢"
+          }
+        ]
+      },
+      {
+        "word_id": "2",
+        "word": "不行",
+        "questions": [
+          {
+            "qid": "c153fcfb-c506-4b54-87dd-5d5debd83aae",
+            "type": "CLOZE",
+            "prompt": "我补充说：‘我的菜也少放盐，____的话太咸了。’",
+            "options": [
+              "不行",
+              "可以",
+              "很好",
+              "太多"
+            ],
+            "answer": "不行",
+            "explanation": "‘不行’在这里表示如果不这样做（少放盐），结果会不好（太咸），表达否定或不可接受的意思。",
+            "target_word": "不行"
+          },
+          {
+            "qid": "eb08f3f6-d756-428e-803b-722bf77eeeed",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '不行' 的正确意思？",
+            "options": [
+              "不可以，不能接受",
+              "非常好，很棒",
+              "可能可以",
+              "有点困难"
+            ],
+            "answer": "不可以，不能接受",
+            "explanation": "‘不行’常用来表示否定、拒绝或某种情况不可接受，如文中担心菜太咸就不能接受。",
+            "target_word": "不行"
+          },
+          {
+            "qid": "affe9fff-bb76-404b-a148-6988e9c08455",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我的菜也少放盐，不行的话太咸了。",
+            "options": null,
+            "answer": "Please put less salt in my dish; otherwise, it will be too salty.",
+            "explanation": "‘不行’在此语境中指‘如果不这样做’的结果，翻译为‘otherwise’最贴切，表达条件关系。",
+            "target_word": "不行"
+          }
+        ]
+      },
+      {
+        "word_id": "3",
+        "word": "元",
+        "questions": [
+          {
+            "qid": "1885238b-7765-4845-aa27-afdfbb4223c9",
+            "type": "CLOZE",
+            "prompt": "服务员说：“38加2，一共40____。”",
+            "options": [
+              "元",
+              "圆",
+              "员",
+              "袁"
+            ],
+            "answer": "元",
+            "explanation": "在文中‘元’是人民币的单位，用于表示价格。",
+            "target_word": "元"
+          },
+          {
+            "qid": "b202590c-ec36-4798-b80f-a66b6c200c72",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '元' 的正确意思？",
+            "options": [
+              "中国货币的基本单位",
+              "圆形的东西",
+              "人员",
+              "姓氏的一种"
+            ],
+            "answer": "中国货币的基本单位",
+            "explanation": "在文章中‘元’用于标示食物价格，如‘38元’，指的是人民币单位。",
+            "target_word": "元"
+          },
+          {
+            "qid": "d8f791c8-770e-407e-bb02-79aa16f74ef4",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：米饭2元，正常一碗。",
+            "options": null,
+            "answer": "Rice is 2 yuan, one bowl as usual.",
+            "explanation": "‘元’在英文中通常翻译为'yuan'，作为人民币单位应小写；整句表达价格和分量。",
+            "target_word": "元"
+          }
+        ]
+      },
+      {
+        "word_id": "4",
+        "word": "正常",
+        "questions": [
+          {
+            "qid": "b5c13fa8-7d6c-4a14-820a-7c46d22c3bd7",
+            "type": "CLOZE",
+            "prompt": "米饭2元，____一碗。",
+            "options": [
+              "正常",
+              "平常",
+              "一般",
+              "标准"
+            ],
+            "answer": "正常",
+            "explanation": "在文中，“正常一碗”表示通常分量的一碗米饭，强调的是常规或标准的份量，因此应选“正常”。",
+            "target_word": "正常"
+          },
+          {
+            "qid": "e7948e43-882a-45a8-9df2-5214546ae677",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '正常' 的正确意思？",
+            "options": [
+              "符合一般情况或标准的",
+              "非常特别的",
+              "价格便宜的",
+              "味道一般的"
+            ],
+            "answer": "符合一般情况或标准的",
+            "explanation": "“正常”指符合通常标准或普遍情况，在文中“正常一碗”即指通常份量的一碗饭，因此正确答案是“符合一般情况或标准的”。",
+            "target_word": "正常"
+          },
+          {
+            "qid": "a00f17ce-4777-419c-b4b9-6750a2a2e61a",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：米饭2元，正常一碗。",
+            "options": null,
+            "answer": "Rice is 2 yuan for a regular bowl.",
+            "explanation": "翻译时，“正常”在此语境中意为“regular”或“normal portion”，表示标准份量，因此译为“a regular bowl”最准确。",
+            "target_word": "正常"
+          }
+        ]
+      },
+      {
+        "word_id": "5",
+        "word": "一共",
+        "questions": [
+          {
+            "qid": "97036e56-549d-4af1-927a-f9fd486279b9",
+            "type": "CLOZE",
+            "prompt": "服务员说：“38加2，____40元。”",
+            "options": [
+              "一共",
+              "一起",
+              "一并",
+              "总共"
+            ],
+            "answer": "一共",
+            "explanation": "‘一共’用于表示总数，这里指38元和2元加起来的总金额是40元。",
+            "target_word": "一共"
+          },
+          {
+            "qid": "2a6b48ca-4678-4404-ae5d-288b89f8ea39",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '一共' 的正确意思？",
+            "options": [
+              "总共、合计",
+              "一起行动",
+              "从头到尾",
+              "同样程度"
+            ],
+            "answer": "总共、合计",
+            "explanation": "‘一共’用来强调数量的总和，如文中‘38加2，一共40元’即为合计金额。",
+            "target_word": "一共"
+          },
+          {
+            "qid": "206f890a-20c4-4cdb-82a6-74aad337b5f6",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：吃完后，我问：“一共多少钱？”",
+            "options": null,
+            "answer": "After eating, I asked, \"How much is the total?\"",
+            "explanation": "‘一共’在此处表示总金额，翻译为\"the total\"最准确，体现总数含义。",
+            "target_word": "一共"
+          }
+        ]
+      },
+      {
+        "word_id": "6",
+        "word": "有（一）点儿",
+        "questions": [
+          {
+            "qid": "a3fa9ea7-68e5-4ea4-af03-84ba74c8a956",
+            "type": "CLOZE",
+            "prompt": "我们坐在____靠窗的座位上，感觉很舒服。",
+            "options": [
+              "一",
+              "这",
+              "那",
+              "个"
+            ],
+            "answer": "一",
+            "explanation": "‘一’用于表示数量，这里指一个靠窗的座位，符合语境。",
+            "target_word": "一"
+          },
+          {
+            "qid": "49645d0e-1b9e-40f8-8db3-b83a485d2df0",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '一' 的正确意思？",
+            "options": [
+              "数字1，表示最小的正整数",
+              "表示重复的动作",
+              "表示顺序中的最后一个",
+              "表示不确定的时间"
+            ],
+            "answer": "数字1，表示最小的正整数",
+            "explanation": "‘一’最基本的含义是数词，表示数量1，在文中如‘一盘排骨’‘一碗米饭’都表示单个单位。",
+            "target_word": "一"
+          },
+          {
+            "qid": "abb6b71f-2630-4151-8d0e-58d785123ead",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：来一盘排骨，外加一碗米饭。",
+            "options": null,
+            "answer": "One plate of spare ribs and a bowl of rice, please.",
+            "explanation": "‘一’在中文中常省略主语和量词前的‘一’，但在英文中需明确表达为‘one’；‘来’在此处是点餐用语，翻译为‘please’更自然。",
+            "target_word": "一"
+          }
+        ]
+      },
+      {
+        "word_id": "7",
+        "word": "甜",
+        "questions": [
+          {
+            "qid": "4d3cb677-3ccc-431d-bc62-46927aff381b",
+            "type": "CLOZE",
+            "prompt": "我看中了一道糖醋排骨，可不知道多少钱，就问服务员：“这个多少钱？”她说：“38元。”我又问：“米饭几元？”她回答：“米饭2元，正常一碗。”我说：“来一盘排骨，外加一碗米饭。”朋友说他不吃葱，要一份不要葱的炒青菜。我补充说：“我的菜也少放盐，不行的话太咸了。” 我喜欢吃____的，但不要太____。",
+            "options": [
+              "甜",
+              "咸",
+              "酸",
+              "辣"
+            ],
+            "answer": "甜",
+            "explanation": "根据上下文，说话人表示自己喜欢口味偏甜的食物，但不能太甜，因此应填‘甜’。",
+            "target_word": "甜"
+          },
+          {
+            "qid": "ee487063-26d8-4d8c-ada8-399de3caafd8",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '甜' 的正确意思？",
+            "options": [
+              "味道像糖一样的",
+              "没有盐的味道",
+              "食物很香",
+              "口感软糯"
+            ],
+            "answer": "味道像糖一样的",
+            "explanation": "‘甜’在中文中用来形容食物有糖的味道，如糖果、蛋糕等，文中提到‘我喜欢吃甜的’即指喜欢带糖味的食物。",
+            "target_word": "甜"
+          },
+          {
+            "qid": "d371965d-6e52-403e-af58-2649411d6005",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我喜欢吃甜的，但不要太甜。",
+            "options": null,
+            "answer": "I like to eat sweet food, but not too sweet.",
+            "explanation": "翻译时需注意‘甜的’指代‘甜的食物’，译为'sweet food'；‘不要太甜’表达程度限制，用'not too sweet'准确传达原意。",
+            "target_word": "甜"
+          }
+        ]
+      },
+      {
+        "word_id": "8",
+        "word": "很",
+        "questions": [
+          {
+            "qid": "159abfde-2425-41cb-98a0-7a33bb37dbd3",
+            "type": "CLOZE",
+            "prompt": "我们吃得特别开心。吃完后，我问：“一共多少钱？”服务员说：“38加2，一共40元。”我掏出50元给她，她找回10元。走出餐厅时，朋友说：“这家味道真不错！”我也觉得下次还想来。原来自己点菜、问价格、提要求也没那么难，只要勇敢开口，一切都____简单！",
+            "options": [
+              "很",
+              "再",
+              "又",
+              "也"
+            ],
+            "answer": "很",
+            "explanation": "‘很’用于修饰形容词‘简单’，表示程度高。",
+            "target_word": "很"
+          },
+          {
+            "qid": "04f418d9-94e6-4355-9242-e7980b885b23",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '很' 的正确意思？",
+            "options": [
+              "表示程度高，相当于“非常”",
+              "表示重复或再次",
+              "表示转折关系",
+              "表示选择"
+            ],
+            "answer": "表示程度高，相当于“非常”",
+            "explanation": "‘很’是一个程度副词，用来加强形容词的语气，如‘很简单’即‘非常简单’。",
+            "target_word": "很"
+          },
+          {
+            "qid": "bd2c1820-e3b8-4aab-bb55-1eec88d519b7",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：原来自己点菜、问价格、提要求也没那么难，只要勇敢开口，一切都很简单！",
+            "options": null,
+            "answer": "It turns out that ordering food, asking about prices, and making requests aren't so difficult—just speak up bravely, and everything is very simple!",
+            "explanation": "‘很’在这里修饰‘简单’，翻译为‘very’以表达程度副词的含义。",
+            "target_word": "很"
+          }
+        ]
+      },
+      {
+        "word_id": "9",
+        "word": "几",
+        "questions": [
+          {
+            "qid": "c77323c3-bd2f-46ea-8690-ebbc8f112a64",
+            "type": "CLOZE",
+            "prompt": "我又问：“米饭____元？”她回答：“米饭2元，正常一碗。”",
+            "options": [
+              "几",
+              "多",
+              "怎",
+              "太"
+            ],
+            "answer": "几",
+            "explanation": "‘几’用于询问数量或价格，这里是在问米饭多少钱，符合语境。",
+            "target_word": "几"
+          },
+          {
+            "qid": "f9e30936-ee23-4e5d-b3b8-39f996558644",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '几' 的正确意思？",
+            "options": [
+              "询问数量或价格",
+              "表示程度很高",
+              "表示时间很久",
+              "表示不确定的时间"
+            ],
+            "answer": "询问数量或价格",
+            "explanation": "‘几’常用于疑问句中，用来询问数量或价格，如‘几元’‘几个人’等。",
+            "target_word": "几"
+          },
+          {
+            "qid": "ee68bea5-8c86-4d8e-ae85-19bc6f4c107b",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：米饭几元？",
+            "options": null,
+            "answer": "How much is the rice?",
+            "explanation": "‘几元’表示‘多少钱’，在口语中常用于询问价格，翻译为‘How much’最为准确。",
+            "target_word": "几"
+          }
+        ]
+      },
+      {
+        "word_id": "10",
+        "word": "座位",
+        "questions": [
+          {
+            "qid": "fa863c2c-c7ab-4a59-b851-8011d38724d3",
+            "type": "CLOZE",
+            "prompt": "我们走进一家小餐厅，服务员很快带我们到一个靠窗的____坐下。",
+            "options": [
+              "座位",
+              "桌子",
+              "椅子",
+              "房间"
+            ],
+            "answer": "座位",
+            "explanation": "‘座位’指供人坐的地方，常用于餐厅、电影院等场所，文中表示他们被带到一个靠窗的位置坐下。",
+            "target_word": "座位"
+          },
+          {
+            "qid": "056ece88-360f-4a50-b90b-1dda168188d4",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '座位' 的正确意思？",
+            "options": [
+              "供人坐的位置",
+              "吃饭用的桌子",
+              "站立的地方",
+              "行走的通道"
+            ],
+            "answer": "供人坐的位置",
+            "explanation": "‘座位’指的是可以坐下的位置，如餐厅、车上的坐处，文中‘靠窗的座位’即表示一个可供就坐的位置。",
+            "target_word": "座位"
+          },
+          {
+            "qid": "dd127d8f-5fb2-4218-9d5b-0961e9c79438",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我们走进一家小餐厅，服务员很快带我们到一个靠窗的座位坐下。",
+            "options": null,
+            "answer": "We walked into a small restaurant, and the waiter quickly led us to a window-side seat to sit down.",
+            "explanation": "翻译时需注意‘座位’译为'seat'，表示具体可坐的位置；‘靠窗的’译为'window-side'作定语修饰seat，语序自然。",
+            "target_word": "座位"
+          }
+        ]
+      },
+      {
+        "word_id": "11",
+        "word": "外",
+        "questions": [
+          {
+            "qid": "677aad14-7b96-448b-bd71-f5999e9a4ce9",
+            "type": "CLOZE",
+            "prompt": "我翻了翻，发现菜式很多，一样一样地看着挺好吃。朋友说：“你想吃什么？”我说：“我喜欢吃甜的，但不要太甜。” 我看中了一道糖醋排骨，可不知道多少钱，就问服务员：“这个多少钱？”她说：“38元。”我又问：“米饭几元？”她回答：“米饭2元，正常一碗。”我说：“来一盘排骨，____一碗米饭。”",
+            "options": [
+              "外",
+              "和",
+              "再",
+              "加"
+            ],
+            "answer": "外",
+            "explanation": "‘外’在这里是‘另外加上’的意思，‘外加’是一个固定搭配，表示在原有基础上再增加。",
+            "target_word": "外"
+          },
+          {
+            "qid": "65f56117-ee5f-4568-8291-51175fd4bce6",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '外' 的正确意思？",
+            "options": [
+              "另外的、附加的",
+              "里面的、内部的",
+              "左边的、偏左的",
+              "过去的、以前的"
+            ],
+            "answer": "另外的、附加的",
+            "explanation": "在文中‘外加一碗米饭’中，‘外’表示‘另外加上’，强调在主菜之外再添加别的东西，因此正确意思是‘另外的、附加的’。",
+            "target_word": "外"
+          },
+          {
+            "qid": "5da2e417-e83d-4e44-8280-9f2a23079e22",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：来一盘排骨，外加一碗米饭。",
+            "options": null,
+            "answer": "One plate of sweet and sour pork ribs, plus a bowl of rice.",
+            "explanation": "‘外加’翻译为‘plus’或‘with an additional’，准确表达在主要点单之外额外添加的内容。",
+            "target_word": "外"
+          }
+        ]
+      },
+      {
+        "word_id": "12",
+        "word": "太",
+        "questions": [
+          {
+            "qid": "c0062f57-d7aa-4d0d-b113-899eb2708116",
+            "type": "CLOZE",
+            "prompt": "我的菜也少放盐，不行的话____咸了。",
+            "options": [
+              "太",
+              "很",
+              "不",
+              "再"
+            ],
+            "answer": "太",
+            "explanation": "‘太’表示程度过高，这里指如果盐放多了就会过咸。",
+            "target_word": "太"
+          },
+          {
+            "qid": "5d0cc6e3-4fc2-405b-b635-f1314fb5bc81",
+            "type": "DEF_MC",
+            "prompt": "下面哪个选项是 '太' 的正确意思？",
+            "options": [
+              "表示程度过高，超过合适范围",
+              "表示否定或拒绝",
+              "表示时间长久",
+              "表示动作重复"
+            ],
+            "answer": "表示程度过高，超过合适范围",
+            "explanation": "在文中‘太咸了’指的是咸的程度太高，不适合口味，因此‘太’表示程度超过适当范围。",
+            "target_word": "太"
+          },
+          {
+            "qid": "1d08cdcf-517a-4be5-8491-bf5c6efd3eb5",
+            "type": "TRANSLATE",
+            "prompt": "请将下面的句子翻译成英文：我的菜也少放盐，不行的话太咸了。",
+            "options": null,
+            "answer": "Please put less salt in my dish; otherwise, it will be too salty.",
+            "explanation": "‘太咸了’翻译为'too salty'，其中'too'对应‘太’，表示程度过高。",
+            "target_word": "太"
+          }
+        ]
+      }
+    ]
+  }
+]

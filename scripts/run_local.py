@@ -3,6 +3,7 @@ import json
 import sys
 from pathlib import Path
 from datetime import datetime 
+import time
 
 project_root = Path(__file__).resolve().parent.parent
 sys.path.append(str(project_root / "src"))
@@ -15,6 +16,7 @@ def main(input_path: str = "data/stage2_example.json"):
     主执行函数
     """
     print("--- Starting Learning Agent ---")
+    start_time=time.time()
     
     print(f"  - Loading input data from: {input_path}")
     try:
@@ -35,7 +37,9 @@ def main(input_path: str = "data/stage2_example.json"):
 
     print("  - Invoking the agent... This may take a few moments.")
     final_state = app.invoke(initial_state)
-
+    end_time = time.time()
+    total_duration = end_time - start_time
+    print(f"\n--- Agent execution finished in {total_duration:.2f} seconds ---\n")
     print("\n--- Agent execution finished ---\n")
     if final_state.get("errors"):
         print("--- ERRORS ---")
@@ -49,11 +53,14 @@ def main(input_path: str = "data/stage2_example.json"):
     output_filename = f"output_{timestamp}.json"
     output_path = output_dir / output_filename
     
-    output_data = final_state.get("outputs", [])
+    final_output_structure = {
+        "execution_time_seconds": round(total_duration, 2),
+        "results": final_state.get("outputs", [])
+    }
     
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, ensure_ascii=False, indent=2)
+            json.dump(final_output_structure, f, ensure_ascii=False, indent=2)
         
         print(f"--- FINAL OUTPUT ---")
         print(f"Successfully saved results to: {output_path}")

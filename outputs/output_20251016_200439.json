@@ -1,0 +1,404 @@
+{
+  "execution_time_seconds": 74.76,
+  "results": [
+    {
+      "lesson_id": "1",
+      "lesson_name": "菜单识读",
+      "passage": {
+        "lesson_id": "1",
+        "text": "今天我和朋友去了一家中式餐馆，这是我第一次自己看中文菜单点菜，有点紧张但也很兴奋。服务员递给我一张菜单，我打开一看，上面的字好多啊！不过别担心，我学过一些中文，可以试试。\n\n菜单上分了很多类，比如“蔬菜”“肉”“汤”还有“主食”。我先看了看价格，发现有些菜很便宜，有些就比较贵。我想着别点太贵的，不然钱包受不了。朋友说：“你想吃米饭还是面条儿？”我说：“都可以，我喜欢配菜。”  \n\n我们点了西红柿炒鸡蛋，这个我很喜欢，而且不贵。还点了一份鱼，听说这里的清蒸鱼特别新鲜。肉的话，我们选了宫保鸡丁，虽然有点辣，但闻起来香极了。汤我们选了紫菜蛋花汤，简单又好吃。\n\n吃完饭，我想喝点东西，就点了一杯咖啡。朋友笑着说：“中餐配咖啡？真特别！”我也笑了，但我觉得挺好的。\n\n最后结账的时候，我发现一共才花了不到100块，真的很划算！原来看懂菜单也没那么难。只要认识“鸡蛋”“肉”“鱼”这些词，再看看“炒”“煮”是什么做法，就能找到自己喜欢的菜。下次我还要自己点菜，说不定还能推荐给别的同学呢！",
+        "tokens_est": 442,
+        "covered_words": [
+          "鸡蛋",
+          "价格",
+          "菜单",
+          "咖啡",
+          "便宜",
+          "菜",
+          "鱼",
+          "贵",
+          "汤",
+          "米饭",
+          "面条儿",
+          "肉"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "鸡蛋",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "价格",
+          "questions": [
+            {
+              "qid": "2942e25f-6ffa-4d70-ada1-3fb40cb71ea1",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "价格",
+              "audio_url": "audio/f932c050.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "2",
+          "word": "菜单",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "咖啡",
+          "questions": [
+            {
+              "qid": "fc641608-7960-4a9b-b169-472dcc932baa",
+              "type": "speak-follow",
+              "prompt": "请跟读以下句子：我点了一杯咖啡。",
+              "options": null,
+              "answer": "我点了一杯咖啡。",
+              "explanation": null,
+              "target_word": "咖啡",
+              "audio_url": "audio/623fa3d9.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "便宜",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "鱼",
+          "questions": [
+            {
+              "qid": "a957e686-643a-4c87-a915-cc72e0b35fb6",
+              "type": "speak-follow",
+              "prompt": "请跟读以下词语：鱼",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "鱼",
+              "audio_url": "audio/3372b7ba.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "7",
+          "word": "贵",
+          "questions": []
+        },
+        {
+          "word_id": "8",
+          "word": "汤",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "米饭",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "面条儿",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "肉",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "lesson_id": "2",
+      "lesson_name": "点餐对话",
+      "passage": {
+        "lesson_id": "2",
+        "text": "中午我来到学校附近的食堂吃饭。一进门，服务员就微笑着对我说：“欢迎光临，请这里坐下。”我点点头，找了个靠窗的位置坐下来。\n\n服务员递给我菜单，问：“您要吃什么？”我看了一下菜单，说：“我要一份宫保鸡丁和一碗米饭，可以吗？”服务员笑着说：“可以的。”我又补充一句：“不要辣，谢谢。”\n\n这时手机响了，是朋友问我到哪儿了。我简单说了两句就挂了，继续点餐。服务员记好后问我：“需要饮料吗？”我想了想说：“买一瓶矿泉水吧。”她接着问：“您确定就这些吗？宫保鸡丁不加辣，再加一瓶矿泉水，对吗？”我点点头：“对，就这样。”她又礼貌地问：“那您知道这顿饭多少钱吗？要不要我告诉您一共多少？”\n\n我笑了笑说：“好啊，麻烦您说一下多少。”她看了看单子，回答：“一共38块钱。”我问：“可以用手机支付吗？”“当然可以。”她回答。我也带了现金，但还是习惯用手机。\n\n付完钱后，我对服务员说：“谢谢您，饭菜很好吃！”她开心地说：“不客气，欢迎下次再来！”\n\n今天这顿饭不仅吃得饱，还练习了点餐对话。我觉得自己进步了不少，以后更要大胆开口说中文。走出食堂时，阳光正好，心情也特别好。",
+        "tokens_est": 478,
+        "covered_words": [
+          "这里",
+          "谢谢",
+          "菜",
+          "现金",
+          "支付",
+          "买",
+          "不要",
+          "可以",
+          "多少",
+          "坐下",
+          "手机",
+          "钱",
+          "请",
+          "要"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "手机",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "可以",
+          "questions": []
+        },
+        {
+          "word_id": "2",
+          "word": "这里",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "多少",
+          "questions": []
+        },
+        {
+          "word_id": "4",
+          "word": "请",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "钱",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "坐下",
+          "questions": []
+        },
+        {
+          "word_id": "7",
+          "word": "员（服务员）",
+          "questions": [
+            {
+              "qid": "b9890955-9633-4975-b767-0db8ca7f46d2",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "服务员",
+              "audio_url": "audio/f2a8b759.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "8",
+          "word": "不要",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "买",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "支付",
+          "questions": [
+            {
+              "qid": "e2d9057b-27ff-42e2-967f-e867daa969e5",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "支付",
+              "audio_url": "audio/ac0c261b.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "12",
+          "word": "要",
+          "questions": []
+        },
+        {
+          "word_id": "13",
+          "word": "谢谢",
+          "questions": []
+        },
+        {
+          "word_id": "14",
+          "word": "现金",
+          "questions": [
+            {
+              "qid": "cfc8217b-962f-4611-b44f-9a84dd298245",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "现金",
+              "audio_url": "audio/2df3c2f6.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson_id": "3",
+      "lesson_name": "情景模拟",
+      "passage": {
+        "lesson_id": "3",
+        "text": "今天我和朋友去吃午饭。我们走进餐厅，服务员问：“几位？”我说：“两位。”她带我们到靠窗的座位坐下。我看了看菜单，问朋友：“你想吃什么？”她说：“我不知道，你呢？”我说：“我喜欢吃辣的，但今天不行，胃有点不舒服。”\n\n朋友说：“我想吃甜的，比如糖醋里脊。”我点点头：“这个菜很受欢迎。”我又问服务员：“这个菜多少钱？”她说：“38元。”我说：“好，来一份。”然后我看另一个菜，问：“宫保鸡丁可以少放辣椒吗？”服务员说：“可以，按正常口味做，还是少辣？”我说：“少辣吧，不要太辣。”\n\n朋友又点了一份青菜和一碗汤。我问：“一共多少钱？”服务员说：“38加22加15，一共75元。”我说：“好的。”等菜上来后，我发现鸡丁颜色很好看，尝了一口，味道不错！朋友说：“这道甜菜真好吃！”我说：“是啊，下次还可以点一样的。”\n\n吃完饭，我拿出手机准备付钱，发现没带够现金。朋友笑着说：“我帮你付吧，外带饮料我请你。”我觉得很温暖，说：“谢谢你，下顿我请！”今天吃饭很开心，学到了怎么在餐厅点菜，也敢开口问问题了。",
+        "tokens_est": 449,
+        "covered_words": [
+          "一样",
+          "喜欢",
+          "不行",
+          "元",
+          "正常",
+          "一共",
+          "有（一）点儿",
+          "甜",
+          "很",
+          "几",
+          "座位",
+          "外",
+          "太"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "一样",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "喜欢",
+          "questions": []
+        },
+        {
+          "word_id": "2",
+          "word": "不行",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "元",
+          "questions": []
+        },
+        {
+          "word_id": "4",
+          "word": "正常",
+          "questions": [
+            {
+              "qid": "55d46ee0-4d40-4ff4-86ed-305dc0d18ed7",
+              "type": "speak-follow",
+              "prompt": "请跟读以下句子，注意‘正常’的发音和语调：\n宫保鸡丁可以少放辣椒吗？可以，按正常口味做，还是少辣？",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "正常",
+              "audio_url": "audio/94007bd8.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "5",
+          "word": "一共",
+          "questions": [
+            {
+              "qid": "8e607cf2-561d-49da-8643-ee5b63b4f3f1",
+              "type": "speak-follow",
+              "prompt": "请跟读下面的句子，注意语调和停顿：\n'38加22加15，一共75元。'",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "一共",
+              "audio_url": "audio/30701665.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "6",
+          "word": "有（一）点儿",
+          "questions": [
+            {
+              "qid": "34fb85be-941b-4dbc-8e78-2ff7a196c3a1",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "一",
+              "audio_url": "audio/8e18c300.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "7",
+          "word": "甜",
+          "questions": [
+            {
+              "qid": "3ec58e49-3d2d-4434-a535-b6e579150496",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "甜",
+              "audio_url": "audio/8afd5744.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "8",
+          "word": "很",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "几",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "座位",
+          "questions": [
+            {
+              "qid": "54b39757-734d-42fb-9f24-2f331065f855",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "座位",
+              "audio_url": "audio/961329f8.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "11",
+          "word": "外",
+          "questions": []
+        },
+        {
+          "word_id": "12",
+          "word": "太",
+          "questions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "q_num":31,  
   "topic": "餐厅点餐",
   "hsk_level": 3,
   "total_lessons": 3,
@@ -12,10 +13,10 @@
       "duration": 5,
       "skill_distribution": {
         "speaking": 3,
-        "listening": 0,
-        "reading": 0,
-        "writing": 0,
-        "translating": 0
+        "listening": 2,
+        "reading": 1,
+        "writing": 3,
+        "translating": 1
       },
       "related_vocabulary": [
         {
@@ -24,7 +25,7 @@
           "HSK_level": 1,
           "skill_distribution": {
             "speaking": 0,
-            "listening": 0,
+            "listening": 2,
             "reading": 0,
             "writing": 0,
             "translating": 0
@@ -37,7 +38,7 @@
           "skill_distribution": {
             "speaking": 1,
             "listening": 0,
-            "reading": 0,
+            "reading": 1,
             "writing": 0,
             "translating": 0
           }
@@ -50,7 +51,7 @@
             "speaking": 0,
             "listening": 0,
             "reading": 0,
-            "writing": 0,
+            "writing": 3,
             "translating": 0
           }
         },
@@ -63,7 +64,7 @@
             "listening": 0,
             "reading": 0,
             "writing": 0,
-            "translating": 0
+            "translating": 1
           }
         },
         {
@@ -172,7 +173,7 @@
       "skill_distribution": {
         "speaking": 3,
         "listening": 0,
-        "reading": 0,
+        "reading": 2,
         "writing": 0,
         "translating": 0
       },
@@ -220,7 +221,7 @@
           "skill_distribution": {
             "speaking": 0,
             "listening": 0,
-            "reading": 0,
+            "reading": 2,
             "writing": 0,
             "translating": 0
           }
@@ -366,10 +367,10 @@
       "duration": 5,
       "skill_distribution": {
         "speaking": 5,
-        "listening": 0,
-        "reading": 0,
-        "writing": 0,
-        "translating": 0
+        "listening": 4,
+        "reading": 2,
+        "writing": 4,
+        "translating": 1
       },
       "related_vocabulary": [
         {
@@ -378,7 +379,7 @@
           "HSK_level": 1,
           "skill_distribution": {
             "speaking": 0,
-            "listening": 0,
+            "listening": 4,
             "reading": 0,
             "writing": 0,
             "translating": 0
@@ -391,7 +392,7 @@
           "skill_distribution": {
             "speaking": 0,
             "listening": 0,
-            "reading": 0,
+            "reading": 2,
             "writing": 0,
             "translating": 0
           }
@@ -404,7 +405,7 @@
             "speaking": 0,
             "listening": 0,
             "reading": 0,
-            "writing": 0,
+            "writing": 4,
             "translating": 0
           }
         },
@@ -417,7 +418,7 @@
             "listening": 0,
             "reading": 0,
             "writing": 0,
-            "translating": 0
+            "translating": 1
           }
         },
         {

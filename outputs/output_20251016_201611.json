@@ -1,0 +1,646 @@
+{
+  "execution_time_seconds": 127.66,
+  "results": [
+    {
+      "lesson_id": "1",
+      "lesson_name": "菜单识读",
+      "passage": {
+        "lesson_id": "1",
+        "text": "我第一次来中餐馆，看着菜单有点紧张。服务员笑着递给我一杯咖啡，让我别着急。我慢慢看：菜有蔬菜、鸡蛋、肉和鱼，还有汤和米饭、面条儿。我想吃炒鸡蛋和鱼汤，一看价格，哎呀，有点贵！换成青菜和便宜的肉片儿吧。最后我还加了一份米饭。饭菜香喷喷的，吃得真开心。原来点餐也没那么难嘛！",
+        "tokens_est": 135,
+        "covered_words": [
+          "鸡蛋",
+          "价格",
+          "菜单",
+          "咖啡",
+          "便宜",
+          "菜",
+          "鱼",
+          "贵",
+          "汤",
+          "米饭",
+          "面条儿",
+          "肉"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "鸡蛋",
+          "questions": [
+            {
+              "qid": "d2f82d2b-e632-4eb2-a40b-f8b63d40ed66",
+              "type": "listen-choice",
+              "prompt": "你将听到一个词，请选择正确的选项。",
+              "options": [
+                "蔬菜",
+                "鸡蛋",
+                "肉片",
+                "米饭"
+              ],
+              "answer": "鸡蛋",
+              "explanation": null,
+              "target_word": "鸡蛋",
+              "audio_url": "audio/0208e891.mp3"
+            },
+            {
+              "qid": "a92e42a2-256a-4f42-a8df-f95d60220da3",
+              "type": "listen-tf",
+              "prompt": "你将听到一句话。请判断这句话是否提到了‘鸡蛋’。",
+              "options": null,
+              "answer": true,
+              "explanation": null,
+              "target_word": "鸡蛋",
+              "audio_url": "audio/e6c39be7.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "1",
+          "word": "价格",
+          "questions": [
+            {
+              "qid": "6579df5a-e029-4237-bf6a-a157a7fc350e",
+              "type": "speak-follow",
+              "prompt": "请跟读以下句子：这个餐厅的菜价格有点贵，但我还是想试试。",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "价格",
+              "audio_url": "audio/a269ca63.mp3"
+            },
+            {
+              "qid": "e25c4887-66ea-4500-aab0-9a9d9cd4eaee",
+              "type": "read-fillblank",
+              "prompt": "根据上下文，选择合适的词语填空：我看了一下菜单上的______，发现这道菜比我想的要贵一些。",
+              "options": [
+                "名字",
+                "价格",
+                "味道",
+                "图片"
+              ],
+              "answer": "价格",
+              "explanation": null,
+              "target_word": "价格",
+              "audio_url": null
+            }
+          ]
+        },
+        {
+          "word_id": "2",
+          "word": "菜单",
+          "questions": [
+            {
+              "qid": "9134bb31-4ed2-4863-a435-806a10dc56a9",
+              "type": "write-word",
+              "prompt": "",
+              "options": null,
+              "answer": "菜单",
+              "explanation": null,
+              "target_word": "菜单",
+              "audio_url": null
+            },
+            {
+              "qid": "89c1db8f-4533-4771-85a6-14dc4433992b",
+              "type": "write-word",
+              "prompt": "",
+              "options": null,
+              "answer": "菜单",
+              "explanation": null,
+              "target_word": "菜单",
+              "audio_url": null
+            },
+            {
+              "qid": "4ad315b0-3a17-40ab-a3d0-cee6691f116c",
+              "type": "write-word",
+              "prompt": "",
+              "options": null,
+              "answer": "我在餐厅拿起菜单，仔细看了看想点什么菜。",
+              "explanation": null,
+              "target_word": "菜单",
+              "audio_url": null
+            }
+          ]
+        },
+        {
+          "word_id": "3",
+          "word": "咖啡",
+          "questions": [
+            {
+              "qid": "a8ccf09e-cda8-4b9e-bd63-0e9e53e6ef53",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "咖啡",
+              "audio_url": "audio/e4f924d2.mp3"
+            },
+            {
+              "qid": "ec627b60-16a3-46db-aab6-1a496628a45f",
+              "type": "translate-c2e",
+              "prompt": "",
+              "options": null,
+              "answer": "The first time I came to a Chinese restaurant, the waiter gave me a cup of coffee.",
+              "explanation": null,
+              "target_word": "咖啡",
+              "audio_url": null
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "便宜",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "鱼",
+          "questions": [
+            {
+              "qid": "486a9488-565d-4e24-9f28-a523ccdfcfcc",
+              "type": "speak-follow",
+              "prompt": "请跟读以下句子：我喜欢吃鱼。",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "鱼",
+              "audio_url": "audio/da3b9c56.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "7",
+          "word": "贵",
+          "questions": []
+        },
+        {
+          "word_id": "8",
+          "word": "汤",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "米饭",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "面条儿",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "肉",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "lesson_id": "2",
+      "lesson_name": "点餐对话",
+      "passage": {
+        "lesson_id": "2",
+        "text": "中午我来到学校附近的食堂，找到一个空位坐下。服务员走过来问：“你要点菜吗？”我说：“请给我菜单。”我看了一下，想要一份宫保鸡丁和一碗米饭。我对服务员说：“我要宫保鸡丁，不要辣，可以吗？”他点头说：“可以。”  \n\n接着我问：“多少钱？”服务员说：“一共28元。”我拿出手机准备支付，但发现这里不能用手机付钱，只能用现金。我从包里拿出钱，正好有30元，就把钱递给他。服务员找我2元，我说：“谢谢！”  \n\n刚吃完，朋友来了，他问：“我可以坐这里吗？”我说：“当然可以！”他点了一份炒面，也用现金买。我们边吃边聊，很开心。临走前，我对服务员说：“菜很好吃，谢谢！”他也笑着说：“欢迎下次再来！”",
+        "tokens_est": 295,
+        "covered_words": [
+          "手机",
+          "可以",
+          "这里",
+          "多少",
+          "请",
+          "钱",
+          "坐下",
+          "员（服务员）",
+          "不要",
+          "菜",
+          "买",
+          "支付",
+          "要",
+          "谢谢",
+          "现金"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "手机",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "可以",
+          "questions": []
+        },
+        {
+          "word_id": "2",
+          "word": "这里",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "多少",
+          "questions": [
+            {
+              "qid": "aefcd495-59f5-4403-a826-5b4d13495774",
+              "type": "read-choice",
+              "prompt": "根据文章内容，当服务员告诉‘我’宫保鸡丁和米饭一共28元时，‘我’接下来做了什么？",
+              "options": [
+                "用手机支付了28元",
+                "拿出现金并给了30元",
+                "问朋友借了钱",
+                "决定不买了"
+              ],
+              "answer": "拿出现金并给了30元",
+              "explanation": "文中提到：‘我拿出手机准备支付，但发现这里不能用手机付钱，只能用现金。我从包里拿出钱，正好有30元，就把钱递给他。’ 所以正确答案是‘拿出现金并给了30元’。",
+              "target_word": "多少",
+              "audio_url": null
+            },
+            {
+              "qid": "2c4bc1ed-6e66-4fb4-9566-85b786ad0766",
+              "type": "read-fillblank",
+              "prompt": "请根据文章内容，在空白处填入合适的词。\n\n我问服务员：‘________？’ 他回答说：‘一共28元。’",
+              "options": [
+                "多少",
+                "多少钱",
+                "价格",
+                "付款"
+              ],
+              "answer": "多少钱",
+              "explanation": "文中明确写道：‘接着我问：“多少钱？”服务员说：“一共28元。”’ 因此空格应填入‘多少钱’，这是询问价格的常用表达。",
+              "target_word": "多少",
+              "audio_url": null
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "请",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "钱",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "坐下",
+          "questions": []
+        },
+        {
+          "word_id": "7",
+          "word": "员（服务员）",
+          "questions": [
+            {
+              "qid": "96f12c60-e6fe-473d-a821-679e19879dd5",
+              "type": "speak-follow",
+              "prompt": "请跟读以下句子：服务员走过来问我要不要点菜。",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "服务员",
+              "audio_url": "audio/00940346.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "8",
+          "word": "不要",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "买",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "支付",
+          "questions": [
+            {
+              "qid": "14ae2fbf-5d00-4cc5-8b74-31e57f92b94e",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "支付",
+              "audio_url": "audio/9d930cbc.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "12",
+          "word": "要",
+          "questions": []
+        },
+        {
+          "word_id": "13",
+          "word": "谢谢",
+          "questions": []
+        },
+        {
+          "word_id": "14",
+          "word": "现金",
+          "questions": [
+            {
+              "qid": "66d5da97-401f-43bd-8300-5198c697acd9",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "现金",
+              "audio_url": "audio/7a16be28.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson_id": "3",
+      "lesson_name": "情景模拟",
+      "passage": {
+        "lesson_id": "3",
+        "text": "今天我和朋友去餐厅吃饭。我们一进门，服务员就问：“几位？”我说：“两位。”她带我们到靠外的座位坐下。朋友说：“我不喜欢葱，菜里不要放。”我说：“我口味正常就好，不要太咸或太甜。”服务员点点头，递来菜单。\n\n我看了一下，问：“这个红烧肉多少钱？”她说：“38元。”朋友又问：“米饭几元？”“一元一碗。”朋友小声说：“这汤看起来不错，要一样试试吗？”我说：“行啊，但我不喝太烫的。”她点头记下，转身去下单。\n\n过了一会儿，服务员端着托盘走过来，抱歉地说：“不好意思，刚才厨房说今天的例汤卖完了，换别的可以吗？”朋友看了看菜单，摇摇头：“别的汤我都不太想喝，那就不喝了。”我说：“也行，总比随便点一个不喜欢的好，那样反而不行。”\n\n点完菜，服务员问：“要饮料吗？”朋友说：“来一瓶水就行。”过了一会儿，她把菜端上来，我们开始吃。红烧肉很香，朋友也说好吃。吃完后，我问：“一共多少钱？”服务员说：“76元。”我给她100元，她找我24元。\n\n这次吃饭很开心，我觉得在餐厅用中文点餐没有那么难，只要大胆说，就行！下次我还想来。",
+        "tokens_est": 458,
+        "covered_words": [
+          "喜欢",
+          "一共",
+          "不行",
+          "外",
+          "甜",
+          "一样",
+          "座位",
+          "太",
+          "正常",
+          "几",
+          "元",
+          "很"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "一样",
+          "questions": [
+            {
+              "qid": "aa17bea7-93cd-439e-aae8-9756f6175f21",
+              "type": "listen-choice",
+              "prompt": "你将听到一句话。请选择最合适的答案。",
+              "options": [
+                "A. 朋友想点一份汤尝尝。",
+                "B. 朋友不想喝汤。",
+                "C. 朋友已经喝过这汤了。",
+                "D. 朋友觉得汤太贵。"
+              ],
+              "answer": "A",
+              "explanation": null,
+              "target_word": "一样",
+              "audio_url": "audio/4f097efa.mp3"
+            },
+            {
+              "qid": "c476b06d-61ee-41fa-8412-8abf96abad88",
+              "type": "listen-tf",
+              "prompt": "你将听到一句话。请判断下列陈述是否正确。",
+              "options": null,
+              "answer": true,
+              "explanation": null,
+              "target_word": "一样",
+              "audio_url": "audio/4b93e2eb.mp3"
+            },
+            {
+              "qid": "bd40a459-8f3d-47b0-8e17-19a18f8216b8",
+              "type": "listen-choice",
+              "prompt": "你将听到一段对话。问题：为什么他们最后没有喝汤？",
+              "options": [
+                "A. 汤太贵了。",
+                "B. 他们只想吃饭。",
+                "C. 例汤卖完了，又不想换别的。",
+                "D. 服务员忘了下单。"
+              ],
+              "answer": "C",
+              "explanation": null,
+              "target_word": "一样",
+              "audio_url": "audio/240db37b.mp3"
+            },
+            {
+              "qid": "49a20c77-dbf7-44f3-a040-b7941a074e49",
+              "type": "listen-tf",
+              "prompt": "你将听到一句话。请判断下列陈述是否正确。",
+              "options": null,
+              "answer": true,
+              "explanation": null,
+              "target_word": "一样",
+              "audio_url": "audio/0db7ec78.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "1",
+          "word": "喜欢",
+          "questions": [
+            {
+              "qid": "da189f6c-370f-437c-bb0d-ffba44acb3e3",
+              "type": "read-choice",
+              "prompt": "",
+              "options": [
+                "A. 汤太贵了",
+                "B. 她不喜欢菜单上剩下的汤",
+                "C. 她不想喝太烫的汤",
+                "D. 服务员推荐了别的菜"
+              ],
+              "answer": "B",
+              "explanation": "文中提到‘别的汤我都不太想喝，那就不喝了’，说明她对剩下的汤没有兴趣，即不喜欢。",
+              "target_word": "喜欢",
+              "audio_url": null
+            },
+            {
+              "qid": "e35df4ac-7086-4c12-86e8-790519cd6ca5",
+              "type": "read-tf",
+              "prompt": "",
+              "options": null,
+              "answer": false,
+              "explanation": "文中说‘红烧肉很香，朋友也说好吃’，且‘我’没有表达不喜欢，因此该句错误。",
+              "target_word": "喜欢",
+              "audio_url": null
+            }
+          ]
+        },
+        {
+          "word_id": "2",
+          "word": "不行",
+          "questions": [
+            {
+              "qid": "2f0e808f-ae07-44c8-8242-631030ad2234",
+              "type": "write-word",
+              "prompt": "使用词语“不行”写一句话。",
+              "options": null,
+              "answer": "示例答案：我不会游泳，所以去深水区不行。",
+              "explanation": null,
+              "target_word": "不行",
+              "audio_url": null
+            },
+            {
+              "qid": "c9fe0711-4b94-46ed-a58e-cd1f1717543c",
+              "type": "write-word",
+              "prompt": "朋友说：‘让我抄一下吧，老师不会发现的。’ 你回答：",
+              "options": null,
+              "answer": "示例答案：抄作业是不对的，不行。",
+              "explanation": null,
+              "target_word": "不行",
+              "audio_url": null
+            },
+            {
+              "qid": "6054f3a0-39f3-471d-a5ae-2c9a417f3dea",
+              "type": "write-word",
+              "prompt": "这道菜太咸了，已经无法食用。请用‘不行’写一句话。",
+              "options": null,
+              "answer": "示例答案：盐放太多了，这菜不行，不能吃了。",
+              "explanation": null,
+              "target_word": "不行",
+              "audio_url": null
+            },
+            {
+              "qid": "2aa08987-3e7c-4792-bf01-84088d383987",
+              "type": "write-word",
+              "prompt": "他对你说：‘我没事，可以上课。’ 你回答：",
+              "options": null,
+              "answer": "示例答案：你现在发烧，去运动不行，得休息。",
+              "explanation": null,
+              "target_word": "不行",
+              "audio_url": null
+            }
+          ]
+        },
+        {
+          "word_id": "3",
+          "word": "元",
+          "questions": [
+            {
+              "qid": "a096dfb9-1552-4553-b783-395ce5b5882f",
+              "type": "translate-c2e",
+              "prompt": "请将以下句子翻译成英文：",
+              "options": null,
+              "answer": "This braised pork costs 38 yuan.",
+              "explanation": null,
+              "target_word": "元",
+              "audio_url": null
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "正常",
+          "questions": [
+            {
+              "qid": "a6aa148c-6a73-4087-b854-f70ba9f17b4c",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "正常",
+              "audio_url": "audio/97cbfcc4.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "5",
+          "word": "一共",
+          "questions": [
+            {
+              "qid": "c48ea032-b94a-43b5-b30e-c6c55e149f23",
+              "type": "speak-follow",
+              "prompt": "请跟读以下句子，注意语调和停顿：\n'服务员，我们点的菜一共多少钱？'",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "一共",
+              "audio_url": "audio/ee374f5b.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "6",
+          "word": "有（一）点儿",
+          "questions": [
+            {
+              "qid": "12c88674-2293-41c2-b99e-ecc41d9a4f83",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "一",
+              "audio_url": "audio/b9b1dfb3.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "7",
+          "word": "甜",
+          "questions": [
+            {
+              "qid": "4ada029f-df5a-469d-89fc-a9830cd16a63",
+              "type": "speak-follow",
+              "prompt": "",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "甜",
+              "audio_url": "audio/1d4f9485.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "8",
+          "word": "很",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "几",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "座位",
+          "questions": [
+            {
+              "qid": "1aebd938-21ca-405c-9795-5ae93d89b2e0",
+              "type": "speak-follow",
+              "prompt": "请跟读以下句子：我们一进门，服务员就带我们到靠外的座位坐下。",
+              "options": null,
+              "answer": null,
+              "explanation": null,
+              "target_word": "座位",
+              "audio_url": "audio/00078765.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "11",
+          "word": "外",
+          "questions": []
+        },
+        {
+          "word_id": "12",
+          "word": "太",
+          "questions": []
+        }
+      ]
+    }
+  ]
+}

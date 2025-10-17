@@ -3,6 +3,7 @@
 from src.llm_client import llm
 from src.prompts import PASSAGE_PROMPT
 from src.models import AgentState, Passage
+from src.utils.text_utils import clean_word
 
 def estimate_chars(minutes: int) -> tuple[int, int]:
     """
@@ -29,31 +30,30 @@ def generate_passage(state: AgentState) -> AgentState:
 
     hsk_level = state.stage2_input.hsk_level
     
-    # 修改点：优先使用 skill_distribution 中的 reading 时间，
-    # 如果没有或为0，则使用总 duration 的一半作为备用估算值。
     reading_minutes = current_lesson.skill_distribution.get("reading", 0)
-    if not reading_minutes:
-        # 如果 reading 时间为0或未提供，则使用总时长的一半作为估算
+    if reading_minutes <= 0:
         reading_minutes = current_lesson.duration / 2
         
     cmin, cmax = estimate_chars(reading_minutes)
     
-    vocab_list_str = "、".join([v.word for v in current_lesson.related_vocabulary])
+   
+    cleaned_vocab_list = [clean_word(v.word) for v in current_lesson.related_vocabulary]
+    vocab_list_str = "、".join(cleaned_vocab_list)
 
     prompt = PASSAGE_PROMPT.format(
-        # hsk_level 是整数，但 .format() 会自动将其转为字符串
         hsk_level=hsk_level, 
         lesson_name=current_lesson.lesson_name,
         lesson_desc=current_lesson.description,
-        vocab_list=vocab_list_str,
+        vocab_list=vocab_list_str, 
         chars_min=cmin,
         chars_max=cmax
     )
     
     generated_text = llm(prompt)
     
+ 
     covered_words = [
-        v.word for v in current_lesson.related_vocabulary if v.word in generated_text
+        v.word for v in current_lesson.related_vocabulary if clean_word(v.word) in generated_text
     ]
     print(f"  - Vocab coverage: {len(covered_words)}/{len(current_lesson.related_vocabulary)}")
 

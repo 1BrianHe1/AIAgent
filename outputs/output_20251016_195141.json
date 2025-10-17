@@ -1,0 +1,403 @@
+{
+  "execution_time_seconds": 93.84,
+  "results": [
+    {
+      "lesson_id": "1",
+      "lesson_name": "菜单识读",
+      "passage": {
+        "lesson_id": "1",
+        "text": "今天我和朋友去了一家中式餐馆，这是我第一次看中文菜单，有点紧张。服务员递给我一份菜单，我打开一看，上面好多字都不认识。朋友笑着说：“别担心，我来帮你！”  \n\n我们先看菜的分类。菜单上写着“蔬菜类”“肉类”“汤类”，这让我一下子明白了结构。我想吃点清淡的，就指着“西红柿炒鸡蛋”问：“这个多少钱？”朋友看了看说：“18元，很便宜！”我觉得不错，就记下了。  \n\n接着我看旁边有“红烧肉”，闻着好香，但价格是38元，有点贵。朋友说：“这家店的肉菜都稍微贵一点，不过味道很好。”我又看到“清蒸鱼”，28元，不算贵，而且很健康，于是也想试试。  \n\n我们还点了“鸡蛋汤”和一碗米饭。朋友说：“中餐一般都要配米饭或面条儿。”我又好奇地问：“这里有咖啡吗？”服务员点点头，说有拿铁和美式。我点了杯拿铁，心想吃完辣菜喝一口咖啡一定很舒服。  \n\n最后我们一共点了四个菜，花了不到100元，真的很划算！这次学会了怎么看菜单，我觉得自己进步了，下次可以自己来点餐啦！",
+        "tokens_est": 425,
+        "covered_words": [
+          "鸡蛋",
+          "价格",
+          "菜单",
+          "咖啡",
+          "便宜",
+          "菜",
+          "鱼",
+          "贵",
+          "汤",
+          "米饭",
+          "面条儿",
+          "肉"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "鸡蛋",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "价格",
+          "questions": [
+            {
+              "qid": "88b1f945-8d95-40da-9b4f-de6c766cade3",
+              "type": "speak-follow",
+              "prompt": "这个餐馆的红烧肉价格有点贵，要38元。",
+              "options": null,
+              "answer": "zhè ge cān guǎn de hóng shāo ròu jià gé yǒu diǎn guì, yào 38 yuán.",
+              "explanation": null,
+              "target_word": "价格",
+              "audio_url": "audio/e6274de5.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "2",
+          "word": "菜单",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "咖啡",
+          "questions": [
+            {
+              "qid": "a20511f8-5fef-49d8-b06a-74db3c1fddcf",
+              "type": "speak-follow",
+              "prompt": "我点了一杯拿铁咖啡，准备饭后喝。",
+              "options": null,
+              "answer": "wǒ diǎn le yī bēi ná tiě kā fēi, zhǔn bèi fàn hòu hē.",
+              "explanation": null,
+              "target_word": "咖啡",
+              "audio_url": "audio/e2c4703b.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "便宜",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "鱼",
+          "questions": [
+            {
+              "qid": "a93ec800-beed-4566-ba43-babf99449e65",
+              "type": "speak-follow",
+              "prompt": "清蒸鱼是一道很健康的菜。",
+              "options": null,
+              "answer": "qīng zhēng yú shì yī dào hěn jiàn kāng de cài",
+              "explanation": null,
+              "target_word": "鱼",
+              "audio_url": "audio/786da52c.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "7",
+          "word": "贵",
+          "questions": []
+        },
+        {
+          "word_id": "8",
+          "word": "汤",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "米饭",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "面条儿",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "肉",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "lesson_id": "2",
+      "lesson_name": "点餐对话",
+      "passage": {
+        "lesson_id": "2",
+        "text": "中午我来到学校附近的食堂吃饭。一进门，服务员就微笑着对我说：“欢迎光临，请这里坐下。”我点点头，找了个靠窗的位置坐下来。\n\n服务员递给我菜单，问：“您要吃什么？”我看了一下菜单，说：“我要一份青椒炒肉，不要辣的，可以吗？”服务员笑着说：“可以的，没问题。”\n\n我又看了看旁边的菜，发现还有我喜欢的西红柿鸡蛋汤。于是我说：“再加一碗汤吧。”说完我把手机拿出来，准备记一下价格。服务员告诉我：“一共35块。”我问：“这道菜多少钱？汤又是多少？”她耐心地回答：“青椒炒肉25块，汤是10块，加起来正好35。”我又问：“可以用手机支付吗？”她说：“可以，也可以用现金。”\n\n我拿出钱包看了看，决定用现金支付。我把钱递给服务员，说：“这是40块，请找我5块。”她接过钱，点点头：“好的，马上为您上菜。”\n\n等菜的时候，我看到旁边一位同学在用手机点餐。我好奇地问她：“你点的什么？总共花了多少？”她笑着说：“我点了米饭和两样小菜，一共28块。”原来这里也可以买饭，真方便！\n\n不一会儿，饭菜端上来了，香喷喷的，看起来很好吃。我赶紧拿起筷子尝了一口，味道真不错！\n\n吃完后，我对服务员说：“谢谢，今天的菜很好吃！”她开心地说：“不客气，欢迎下次再来！”\n\n走出食堂，我觉得今天不仅吃饱了，还练习了点餐对话，连“多少”这样的问题都自然地问出来了，真是一次愉快的经历！",
+        "tokens_est": 575,
+        "covered_words": [
+          "可以",
+          "这里",
+          "手机",
+          "不要",
+          "要",
+          "请",
+          "菜",
+          "谢谢",
+          "坐下",
+          "买",
+          "现金",
+          "支付",
+          "钱",
+          "多少"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "手机",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "可以",
+          "questions": []
+        },
+        {
+          "word_id": "2",
+          "word": "这里",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "多少",
+          "questions": []
+        },
+        {
+          "word_id": "4",
+          "word": "请",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "钱",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "坐下",
+          "questions": []
+        },
+        {
+          "word_id": "7",
+          "word": "员（服务员）",
+          "questions": [
+            {
+              "qid": "8f896342-960d-4807-87b9-69d76d903947",
+              "type": "speak-follow",
+              "prompt": "服务员微笑着对我说：‘欢迎光临，请这里坐下。’",
+              "options": null,
+              "answer": "fú wù yuán wēi xiào zhe duì wǒ shuō: ‘huān yíng guāng lín, qǐng zhè lǐ zuò xià.’",
+              "explanation": null,
+              "target_word": "服务员",
+              "audio_url": "audio/47510ba7.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "8",
+          "word": "不要",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "买",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "支付",
+          "questions": [
+            {
+              "qid": "74e9347b-cf8b-459a-bc51-8626f4e082a1",
+              "type": "speak-follow",
+              "prompt": "我可以用手机支付这顿饭的钱。",
+              "options": null,
+              "answer": "wǒ kěyǐ yòng shǒujī zhīfù zhè dùn fàn de qián.",
+              "explanation": null,
+              "target_word": "支付",
+              "audio_url": "audio/58c029dd.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "12",
+          "word": "要",
+          "questions": []
+        },
+        {
+          "word_id": "13",
+          "word": "谢谢",
+          "questions": []
+        },
+        {
+          "word_id": "14",
+          "word": "现金",
+          "questions": [
+            {
+              "qid": "5abf1347-5a55-4cba-9896-402e7c951b05",
+              "type": "speak-follow",
+              "prompt": "我决定用现金支付，这是40块，请找我5块。",
+              "options": null,
+              "answer": "wǒ jué dìng yòng xiàn jīn zhī fù, zhè shì sì shí kuài, qǐng zhǎo wǒ wǔ kuài.",
+              "explanation": null,
+              "target_word": "现金",
+              "audio_url": "audio/477d1df6.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson_id": "3",
+      "lesson_name": "情景模拟",
+      "passage": {
+        "lesson_id": "3",
+        "text": "今天我和朋友去吃午饭。我们走进一家小餐厅，服务员很快带我们到一个靠窗的座位坐下。她递给我们菜单，说：“先看看想吃什么？”我翻了翻菜单，指着图片问：“这个红烧肉多少钱？”服务员回答：“38元。”朋友说：“我喜欢吃甜的，有没有糖醋排骨？”服务员点点头：“有，一份35元。”我说：“我不喜欢葱，能不能不要放？”她说：“可以，没问题。”朋友又问：“米饭几元一碗？”“2元。”“那来两碗吧。”服务员笑着说：“好的。”\n\n我看菜单上还有鱼香肉丝，就问：“这个辣吗？”她说：“正常辣度，如果不能吃辣可以少放辣椒。”我想了想说：“太辣不行，少放一点吧。”这时朋友突然提议：“要不要打包一份带外带？晚上回家还能吃。”我笑了：“你真是随时想着下一顿啊！”服务员也听见了，顺口问：“需要打包吗？我们这可以提供外带盒，干净又保温。”朋友摆摆手：“今天不用了，改天再外带吧。”\n\n最后我们点了一样主菜、两碗饭，还点了一杯橙汁。结账时服务员说：“一共78元。”我掏出100元给她，她找给我22元。\n\n走出餐厅，朋友说：“今天吃得真开心！”我也觉得这次点餐很顺利，下次我还想来！原来在餐厅用中文点饭，也没有那么难嘛。而且如果时间紧，还可以选择外带，更加方便呢。",
+        "tokens_est": 515,
+        "covered_words": [
+          "喜欢",
+          "外",
+          "一共",
+          "很",
+          "太",
+          "一样",
+          "甜",
+          "座位",
+          "几",
+          "正常",
+          "元",
+          "不行"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "一样",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "喜欢",
+          "questions": []
+        },
+        {
+          "word_id": "2",
+          "word": "不行",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "元",
+          "questions": []
+        },
+        {
+          "word_id": "4",
+          "word": "正常",
+          "questions": [
+            {
+              "qid": "baff709d-e088-4824-bf07-8add2481885a",
+              "type": "speak-follow",
+              "prompt": "这个菜的辣度是正常的，不会太辣。",
+              "options": null,
+              "answer": "zhè gè cài de là dù shì zhèng cháng de, bù huì tài là.",
+              "explanation": null,
+              "target_word": "正常",
+              "audio_url": "audio/c1bd14a1.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "5",
+          "word": "一共",
+          "questions": [
+            {
+              "qid": "9cb1bdbf-42fd-40fb-a21d-51e5801a9e7e",
+              "type": "speak-follow",
+              "prompt": "结账时服务员说：‘一共78元。’",
+              "options": null,
+              "answer": "jié zhàng shí fú wù yuán shuō: ‘yī gòng qī shí bā yuán.’",
+              "explanation": null,
+              "target_word": "一共",
+              "audio_url": "audio/0d65c6f2.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "6",
+          "word": "有（一）点儿",
+          "questions": [
+            {
+              "qid": "9c82a5c9-30e5-480f-a004-2edd2226e1a5",
+              "type": "speak-follow",
+              "prompt": "我们点了一样主菜、两碗饭，还点了一杯橙汁。",
+              "options": null,
+              "answer": "wǒ men diǎn le yī yàng zhǔ cài, liǎng wǎn fàn, hái diǎn le yī bēi chéng zhī",
+              "explanation": null,
+              "target_word": "一",
+              "audio_url": "audio/f9b833f8.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "7",
+          "word": "甜",
+          "questions": [
+            {
+              "qid": "a8d92c40-c806-4e94-82dd-9d9fc5f9493d",
+              "type": "speak-follow",
+              "prompt": "我喜欢吃甜的食物，尤其是甜点。",
+              "options": null,
+              "answer": "wǒ xǐ huān chī tián de shí wù, yóu qí shì tián diǎn",
+              "explanation": null,
+              "target_word": "甜",
+              "audio_url": "audio/8ea3b7bf.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "8",
+          "word": "很",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "几",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "座位",
+          "questions": [
+            {
+              "qid": "3303fd91-9510-4bb7-be70-fdccf799a120",
+              "type": "speak-follow",
+              "prompt": "我们走进餐厅，服务员带我们到一个靠窗的座位坐下。",
+              "options": null,
+              "answer": "wǒ men zǒu jìn cān tīng, fú wù yuán dài wǒ men dào yí gè kào chuāng de zuò wèi zuò xià",
+              "explanation": null,
+              "target_word": "座位",
+              "audio_url": "audio/46e75108.mp3"
+            }
+          ]
+        },
+        {
+          "word_id": "11",
+          "word": "外",
+          "questions": []
+        },
+        {
+          "word_id": "12",
+          "word": "太",
+          "questions": []
+        }
+      ]
+    }
+  ]
+}

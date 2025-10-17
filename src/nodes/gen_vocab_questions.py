@@ -1,32 +1,22 @@
-# src/nodes/gen_vocab_questions.py (优化版)
-
 import json
 import uuid
-from llm_client import llm # 假设你的 import 路径是这样
+from llm_client import llm
+import random
 from prompts import VOCAB_QUESTIONS_PROMPT, JSON_ONLY_SUFFIX
 from models import AgentState, VocabPackage, Question, LessonPackage
 import re
-
-def _clean_word(word: str) -> str:
-    """一个辅助函数，用于清理和提取核心词汇。"""
-    match = re.search(r'（(.*?)）|\((.*?)\)', word)
-    if match:
-        return match.group(1) or match.group(2)
-    return re.sub(r'（.*?）|\(.*?\)', '', word).strip()
+from utils.text_utils import clean_word
+from config import SKILL_TO_EXERCISE_MAP, LISTENING_EXERCISE_TYPES
+from tools.tts import generate_audio_placeholder
 
 def parse_llm_json_output(llm_output: str, word: str) -> list[Question]:
-    """
-    一个健壮的解析器，用于处理 LLM 返回的 JSON 字符串。
-    """
     try:
         if llm_output.strip().startswith("```json"):
             cleaned_output = llm_output.strip()[7:-3].strip()
         else:
             cleaned_output = llm_output
-
         data = json.loads(cleaned_output)
         questions_data = data.get("questions", [])
-        
         parsed_questions = []
         for item in questions_data:
             q = Question(
@@ -42,14 +32,11 @@ def parse_llm_json_output(llm_output: str, word: str) -> list[Question]:
         return parsed_questions
     except (json.JSONDecodeError, TypeError, IndexError) as e:
         print(f"  - ERROR: Failed to parse JSON for word '{word}'. Error: {e}")
-        print(f"  - Raw LLM output was:{llm_output}")
+        print(f"  - Raw LLM output was:\n{llm_output}")
         return []
 
-
 def gen_vocab_questions(state: AgentState) -> AgentState:
-    """
-    LangGraph 节点：为当前课程单元中的每个词汇生成练习题包。
-    """
+
     print("---NODE: gen_vocab_questions ---")
 
     current_lesson = state.current_lesson
@@ -66,32 +53,43 @@ def gen_vocab_questions(state: AgentState) -> AgentState:
 
     for i, vocab_item in enumerate(vocab_list):
         original_word = vocab_item.word
-        # --- 核心修改点 1: 调用 _clean_word ---
-        cleaned_word = _clean_word(original_word)
-        
-        # 优化日志，让我们能看到清理过程
+        cleaned_word = clean_word(original_word)
         print(f"    - ({i+1}/{len(vocab_list)}) Processing word: '{original_word}' -> Cleaned: '{cleaned_word}'")
         
-        # --- 核心修改点 2: 使用清理后的词构建 prompt ---
+        exercise_requests = []
+        for skill, count in vocab_item.skill_distribution.items():
+            if count > 0:
+                exercise_requests.append(f"- 生成 {count} 道 `{skill}` 技能的题目")
+        
+        if not exercise_requests:
+            print(f"      - No exercises requested for this word. Skipping.")
+            package = VocabPackage(word_id=str(vocab_item.word_id), word=original_word, questions=[])
+            all_vocab_packages.append(package)
+            continue
+            
+        exercise_requests_str = "\n".join(exercise_requests)
+
         prompt = VOCAB_QUESTIONS_PROMPT.format(
             word=cleaned_word,
-            passage_text=passage.text
+            passage_text=passage.text,
+            exercise_requests_list=exercise_requests_str
         ) + JSON_ONLY_SUFFIX
-
+        
         questions = []
         for attempt in range(2):
             llm_output = llm(prompt)
-            # --- 核心修改点 3: 将清理后的词传递给解析器 ---
             questions = parse_llm_json_output(llm_output, cleaned_word)
-            
             if questions:
                 break
             else:
                 print(f"    - Attempt {attempt + 1} failed. Parsing returned no questions. Retrying...")
         
+        for q in questions:
+            if q.type in LISTENING_EXERCISE_TYPES:
+                q.audio_url = generate_audio_placeholder(q.prompt)
+        
         package = VocabPackage(
             word_id=str(vocab_item.word_id),
-            # 我们在最终的包里仍然使用原始的、完整的词
             word=original_word, 
             questions=questions
         )
@@ -101,11 +99,8 @@ def gen_vocab_questions(state: AgentState) -> AgentState:
         lesson_id=str(current_lesson.lesson_id),
         lesson_name=current_lesson.lesson_name,
         passage=passage.model_dump(),
-        vocab_packages=all_vocab_packages
+        vocab_packages=[pkg.model_dump() for pkg in all_vocab_packages]
     )
-
     state.outputs.append(lesson_package.model_dump())
-    
     print(f"  - Successfully created LessonPackage for lesson: '{current_lesson.lesson_name}'")
-
     return state
