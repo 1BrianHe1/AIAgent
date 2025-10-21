@@ -1,0 +1,876 @@
+{
+  "topic": "餐厅点餐",
+  "lessons": [
+    {
+      "lesson_id": "1",
+      "lesson_name": "菜单识读",
+      "type": "passage",
+      "passage": {
+        "text": "我走进一家中式餐馆，服务员递来一份菜单。我看不懂菜名，有点紧张。菜单上有鸡蛋、鱼、肉和蔬菜，还有汤、米饭和面条儿。我想点一个便宜的菜，但不知道价格。服务员说炒鸡蛋最便宜，鱼和肉比较贵。我喜欢喝汤，也想喝咖啡。最后我点了炒鸡蛋、米饭和一碗汤。",
+        "covered_words": [
+          "鸡蛋",
+          "价格",
+          "菜单",
+          "咖啡",
+          "便宜",
+          "菜",
+          "鱼",
+          "贵",
+          "汤",
+          "米饭",
+          "面条儿",
+          "肉"
+        ],
+        "textEn": "I walked into a Chinese restaurant and the waiter handed me a menu. I couldn't understand the dish names and felt a bit nervous. The menu had eggs, fish, meat, and vegetables, as well as soup, rice, and noodles. I wanted to order an inexpensive dish but didn't know the prices. The waiter said stir-fried eggs were the cheapest, while fish and meat were more expensive. I like drinking soup and also wanted coffee. In the end, I ordered stir-fried eggs, rice, and a bowl of soup.",
+        "pinyin": "wǒ zǒu jìn yī jiā zhōng shì cān guǎn ， fú wù yuán dì lái yī fèn cài dān 。 wǒ kàn bù dǒng cài míng ， yǒu diǎn jǐn zhāng 。 cài dān shàng yǒu jī dàn 、 yú 、 ròu hé shū cài ， hái yǒu tāng 、 mǐ fàn hé miàn tiáo er 。 wǒ xiǎng diǎn yī gè pián yi de cài ， dàn bù zhī dào jià gé 。 fú wù yuán shuō chǎo jī dàn zuì pián yi ， yú hé ròu bǐ jiào guì 。 wǒ xǐ huān hē tāng ， yě xiǎng hē kā fēi 。 zuì hòu wǒ diǎn le chǎo jī dàn 、 mǐ fàn hé yī wǎn tāng 。"
+      },
+      "roles": null,
+      "dialogues": null,
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "鸡蛋",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "价格",
+          "questions": [
+            {
+              "id": "3e218721-ec69-42ab-8d9f-17cdbe8f50bb",
+              "level": 3,
+              "type": "speak_follow",
+              "stimuli": {
+                "text": "我走进一家中式餐馆，服务员递来一份菜单。我看不懂菜名，有点紧张。菜单上有鸡蛋、鱼、肉和蔬菜，还有汤、米饭和面条儿。我想点一个便宜的菜，但不知道价格。服务员说炒鸡蛋最便宜，鱼和肉比较贵。我喜欢喝汤，也想喝咖啡。最后我点了炒鸡蛋、米饭和一碗汤。",
+                "audio_url": "audio/26016c4b.mp3"
+              },
+              "stem": "请复述这句话：'我想点一个便宜的菜，但不知道价格。'",
+              "stem_en": "Please repeat the sentence: 'I want to order a cheap dish, but I don't know the price.'",
+              "options": null,
+              "answer": null
+            },
+            {
+              "id": "e1ac7810-e43b-45d5-9d6a-1cfaa786afa2",
+              "level": 3,
+              "type": "read_tf",
+              "stimuli": {
+                "text": "我走进一家中式餐馆，服务员递来一份菜单。我看不懂菜名，有点紧张。菜单上有鸡蛋、鱼、肉和蔬菜，还有汤、米饭和面条儿。我想点一个便宜的菜，但不知道价格。服务员说炒鸡蛋最便宜，鱼和肉比较贵。我喜欢喝汤，也想喝咖啡。最后我点了炒鸡蛋、米饭和一碗汤。",
+                "audio_url": null
+              },
+              "stem": "根据文章，我知道每道菜的价格。",
+              "stem_en": "According to the passage, I know the price of each dish.",
+              "options": null,
+              "answer": false
+            }
+          ]
+        },
+        {
+          "word_id": "2",
+          "word": "菜单",
+          "questions": [
+            {
+              "id": "b22ce422-7fe4-4acb-9b7f-2105d1e7df43",
+              "level": 3,
+              "type": "write_word",
+              "stimuli": {
+                "text": "我走进一家中式餐馆，服务员递来一份菜单。我看不懂菜名，有点紧张。菜单上有鸡蛋、鱼、肉和蔬菜，还有汤、米饭和面条儿。我想点一个便宜的菜，但不知道价格。服务员说炒鸡蛋最便宜，鱼和肉比较贵。我喜欢喝汤，也想喝咖啡。最后我点了炒鸡蛋、米饭和一碗汤。",
+                "audio_url": null
+              },
+              "stem": "根据文章内容，服务员递给我的东西叫什么？",
+              "stem_en": "According to the passage, what did the waiter give me?",
+              "options": null,
+              "answer": "菜单"
+            },
+            {
+              "id": "e610078a-671a-4963-b0fd-e7fde8edfb78",
+              "level": 3,
+              "type": "write_word",
+              "stimuli": {
+                "text": "我走进一家中式餐馆，服务员递来一份菜单。我看不懂菜名，有点紧张。菜单上有鸡蛋、鱼、肉和蔬菜，还有汤、米饭和面条儿。我想点一个便宜的菜，但不知道价格。服务员说炒鸡蛋最便宜，鱼和肉比较贵。我喜欢喝汤，也想喝咖啡。最后我点了炒鸡蛋、米饭和一碗汤。",
+                "audio_url": null
+              },
+              "stem": "在餐厅里，列出所有菜品供顾客选择的那张纸叫什么？",
+              "stem_en": "In a restaurant, what is the piece of paper called that lists all the dishes for customers to choose from?",
+              "options": null,
+              "answer": "菜单"
+            },
+            {
+              "id": "93cf92c0-492e-4f27-9d84-94d541188155",
+              "level": 3,
+              "type": "write_word",
+              "stimuli": {
+                "text": "我走进一家中式餐馆，服务员递来一份菜单。我看不懂菜名，有点紧张。菜单上有鸡蛋、鱼、肉和蔬菜，还有汤、米饭和面条儿。我想点一个便宜的菜，但不知道价格。服务员说炒鸡蛋最便宜，鱼和肉比较贵。我喜欢喝汤，也想喝咖啡。最后我点了炒鸡蛋、米饭和一碗汤。",
+                "audio_url": null
+              },
+              "stem": "我想知道哪些菜可以点，应该看什么？",
+              "stem_en": "If I want to know which dishes I can order, what should I look at?",
+              "options": null,
+              "answer": "菜单"
+            }
+          ]
+        },
+        {
+          "word_id": "3",
+          "word": "咖啡",
+          "questions": [
+            {
+              "id": "14aea3a1-c445-4113-8764-288170154f2f",
+              "level": 3,
+              "type": "speak_follow",
+              "stimuli": {
+                "text": "我喜欢喝汤，也想喝咖啡。",
+                "audio_url": "audio/b1f523e1.mp3"
+              },
+              "stem": "请跟读并模仿下面的句子：我喜欢喝汤，也想喝咖啡。",
+              "stem_en": "Please repeat and imitate the following sentence: I like to drink soup, and I also want to drink coffee.",
+              "options": null,
+              "answer": null
+            },
+            {
+              "id": "fda82200-7dcd-4983-bddb-94b7ce706d66",
+              "level": 3,
+              "type": "translate_c2e",
+              "stimuli": {
+                "text": "我想喝咖啡。",
+                "audio_url": null
+              },
+              "stem": "将以下中文句子翻译成英文：我想喝咖啡。",
+              "stem_en": "Translate the following Chinese sentence into English: I want to drink coffee.",
+              "options": null,
+              "answer": "I want to drink coffee."
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "便宜",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "鱼",
+          "questions": [
+            {
+              "id": "f23f4af8-52df-43be-b59f-f52777d96d3b",
+              "level": 3,
+              "type": "speak_follow",
+              "stimuli": {
+                "text": "我走进一家中式餐馆，服务员递来一份菜单。我看不懂菜名，有点紧张。菜单上有鸡蛋、鱼、肉和蔬菜，还有汤、米饭和面条儿。我想点一个便宜的菜，但不知道价格。服务员说炒鸡蛋最便宜，鱼和肉比较贵。我喜欢喝汤，也想喝咖啡。最后我点了炒鸡蛋、米饭和一碗汤。",
+                "audio_url": "audio/d45fb4d0.mp3"
+              },
+              "stem": "请跟读并模仿下面这个句子：'鱼和肉比较贵。'",
+              "stem_en": "Please repeat and imitate the following sentence: 'Fish and meat are relatively expensive.'",
+              "options": null,
+              "answer": null
+            }
+          ]
+        },
+        {
+          "word_id": "7",
+          "word": "贵",
+          "questions": []
+        },
+        {
+          "word_id": "8",
+          "word": "汤",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "米饭",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "面条儿",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "肉",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "lesson_id": "2",
+      "lesson_name": "点餐对话",
+      "type": "dialogue",
+      "passage": null,
+      "roles": [
+        {
+          "roleId": 1,
+          "roleName": "服务员"
+        },
+        {
+          "roleId": 2,
+          "roleName": "顾客"
+        }
+      ],
+      "dialogues": [
+        {
+          "dialogueId": 1,
+          "roleId": 2,
+          "text": "请坐，这是菜单。",
+          "covered_words": [
+            "请",
+            "坐下",
+            "菜"
+          ],
+          "textEn": "Please sit down, here is the menu.",
+          "pinyin": "Qǐng zuò, zhè shì càidān."
+        },
+        {
+          "dialogueId": 2,
+          "roleId": 1,
+          "text": "谢谢。我要米饭和一个炒菜，不要辣。",
+          "covered_words": [
+            "要",
+            "菜",
+            "不要",
+            "谢谢"
+          ],
+          "textEn": "Thank you. I want rice and one stir-fried dish, not spicy.",
+          "pinyin": "Xièxie. Wǒ yào mǐfàn hé yī gè chǎocài, búyào là."
+        },
+        {
+          "dialogueId": 3,
+          "roleId": 2,
+          "text": "好的，可以。还要别的吗？",
+          "covered_words": [
+            "可以",
+            "要"
+          ],
+          "textEn": "Okay, sure. Anything else?",
+          "pinyin": "Hǎo de, kěyǐ. Hái yào bié de ma?"
+        },
+        {
+          "dialogueId": 4,
+          "roleId": 1,
+          "text": "这里有一瓶水，我也要一瓶。",
+          "covered_words": [
+            "这里",
+            "要"
+          ],
+          "textEn": "There is a bottle of water here, I also want one.",
+          "pinyin": "Zhèlǐ yǒu yī píng shuǐ, wǒ yě yào yī píng."
+        },
+        {
+          "dialogueId": 5,
+          "roleId": 2,
+          "text": "一共十五块钱，怎么支付？可以用手机或现金。",
+          "covered_words": [
+            "钱",
+            "多少",
+            "支付",
+            "手机",
+            "现金"
+          ],
+          "textEn": "That's fifteen yuan in total. How would you like to pay? You can use your phone or cash.",
+          "pinyin": "Yígòng shíwǔ kuài qián, zěnme zhīfù? Kěyǐ yòng shǒujī huò xiànjīn."
+        },
+        {
+          "dialogueId": 6,
+          "roleId": 1,
+          "text": "我用手机支付，请等一下。",
+          "covered_words": [
+            "手机",
+            "支付",
+            "请"
+          ],
+          "textEn": "I'll pay with my phone, please wait a moment.",
+          "pinyin": "Wǒ yòng shǒujī zhīfù, qǐng děng yīxià."
+        },
+        {
+          "dialogueId": 7,
+          "roleId": 2,
+          "text": "好的，已经收到。谢谢！",
+          "covered_words": [
+            "谢谢"
+          ],
+          "textEn": "Okay, received. Thank you!",
+          "pinyin": "Hǎo de, yǐjīng shōudào. Xièxie!"
+        },
+        {
+          "dialogueId": 8,
+          "roleId": 1,
+          "text": "服务员，我想买一份带走。",
+          "covered_words": [
+            "服务员",
+            "买"
+          ],
+          "textEn": "Waiter, I'd like to buy one to take away.",
+          "pinyin": "Fúwùyuán, wǒ xiǎng mǎi yī fèn dài zǒu."
+        },
+        {
+          "dialogueId": 9,
+          "roleId": 2,
+          "text": "可以，马上给你打包。",
+          "covered_words": [
+            "可以"
+          ],
+          "textEn": "Sure, I'll pack it for you right away.",
+          "pinyin": "Kěyǐ, mǎshàng gěi nǐ dǎbāo."
+        }
+      ],
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "手机",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "可以",
+          "questions": []
+        },
+        {
+          "word_id": "2",
+          "word": "这里",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "多少",
+          "questions": [
+            {
+              "id": "9aec1285-fb65-4311-a408-e5226fdb59b0",
+              "level": 3,
+              "type": "read_tf",
+              "stimuli": {
+                "text": "请坐，这是菜单。你先坐下看看想吃什么。\n\n谢谢。我要米饭和一个炒菜，不要辣，这个多少钱？  \n一共十五块钱。好的，我知道了。还要别的吗？  \n这里有一瓶水，我也要一瓶，水是多少钱？  \n水五块一瓶。  \n好的，那我用手机支付，请等一下。  \n可以，已经收到付款了。谢谢！  \n\n服务员，我想买一份带走。  \n没问题，马上给你打包。",
+                "audio_url": null
+              },
+              "stem": "在对话中，顾客问了两次‘多少钱’，这两次询问都可以用‘多少’来提问价格。",
+              "stem_en": "In the conversation, the customer asks 'how much' twice, and both times the word 'duōshao' can be used to ask about price.",
+              "options": null,
+              "answer": true
+            },
+            {
+              "id": "0964cc2f-5b77-4a7a-bdaa-d6fb5eb06e5a",
+              "level": 3,
+              "type": "read_choice",
+              "stimuli": {
+                "text": "请坐，这是菜单。你先坐下看看想吃什么。\n\n谢谢。我要米饭和一个炒菜，不要辣，这个多少钱？  \n一共十五块钱。好的，我知道了。还要别的吗？  \n这里有一瓶水，我也要一瓶，水是多少钱？  \n水五块一瓶。  \n好的，那我用手机支付，请等一下。  \n可以，已经收到付款了。谢谢！  \n\n服务员，我想买一份带走。  \n没问题，马上给你打包。",
+                "audio_url": null
+              },
+              "stem": "“多少”在本对话中最合适的理解是什么？",
+              "stem_en": "What is the most appropriate meaning of 'duōshao' in this dialogue?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "多少意思是‘很多’",
+                  "meaning": "'Duōshao' means 'a lot'",
+                  "pinyin": "duōshāo yìsi shì ‘hěn duō’"
+                },
+                {
+                  "id": "B",
+                  "text": "多少用来询问数量或价格",
+                  "meaning": "'Duōshao' is used to ask about quantity or price",
+                  "pinyin": "duōshǎo yòng lái xúnwèn shùliàng huò jiàgé"
+                },
+                {
+                  "id": "C",
+                  "text": "多少意思是‘很少’",
+                  "meaning": "'Duōshao' means 'very little'",
+                  "pinyin": "duōshāo yìsi shì ‘hěn shǎo’"
+                },
+                {
+                  "id": "D",
+                  "text": "多少在这里表示感谢",
+                  "meaning": "'Duōshao' here expresses gratitude",
+                  "pinyin": "duōshǎo zài zhèlǐ biǎoshì gǎnxiè"
+                }
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "请",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "钱",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "坐下",
+          "questions": []
+        },
+        {
+          "word_id": "7",
+          "word": "员（服务员）",
+          "questions": []
+        },
+        {
+          "word_id": "8",
+          "word": "不要",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "买",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "支付",
+          "questions": [
+            {
+              "id": "925fdabe-5991-43e7-9b54-1e6321825ff4",
+              "level": 3,
+              "type": "speak_follow",
+              "stimuli": {
+                "text": "请坐，这是菜单。你先坐下看看想吃什么。\n\n谢谢。我要米饭和一个炒菜，不要辣，这个多少钱？  \n一共十五块钱。好的，我知道了。还要别的吗？  \n这里有一瓶水，我也要一瓶，水是多少钱？  \n水五块一瓶。  \n好的，那我用手机支付，请等一下。  \n可以，已经收到付款了。谢谢！  \n\n服务员，我想买一份带走。  \n没问题，马上给你打包。",
+                "audio_url": "audio/16b7da4f.mp3"
+              },
+              "stem": "请跟读以下句子：'好的，那我用手机支付，请等一下。'",
+              "stem_en": "Please repeat the following sentence: '好的，那我用手机支付，请等一下。'",
+              "options": null,
+              "answer": null
+            }
+          ]
+        },
+        {
+          "word_id": "12",
+          "word": "要",
+          "questions": []
+        },
+        {
+          "word_id": "13",
+          "word": "谢谢",
+          "questions": []
+        },
+        {
+          "word_id": "14",
+          "word": "现金",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "lesson_id": "3",
+      "lesson_name": "情景模拟",
+      "type": "dialogue",
+      "passage": null,
+      "roles": [
+        {
+          "roleId": 1,
+          "roleName": "服务员"
+        },
+        {
+          "roleId": 2,
+          "roleName": "顾客"
+        }
+      ],
+      "dialogues": [
+        {
+          "dialogueId": 1,
+          "roleId": 1,
+          "text": "您好，欢迎光临！请问有几位？",
+          "covered_words": [
+            "几",
+            "位"
+          ],
+          "textEn": "Hello, welcome! How many people?",
+          "pinyin": "Nín hǎo, huānyíng guānglín! Qǐngwèn yǒu jǐ wèi?"
+        },
+        {
+          "dialogueId": 2,
+          "roleId": 2,
+          "text": "一位，我一个人。有靠外的座位吗？",
+          "covered_words": [
+            "一",
+            "位",
+            "外",
+            "座位"
+          ],
+          "textEn": "One person, I'm alone. Is there a seat near the outside?",
+          "pinyin": "Yī wèi, wǒ yīgè rén. Yǒu kào wài de zuòwèi ma?"
+        },
+        {
+          "dialogueId": 3,
+          "roleId": 1,
+          "text": "有的，请这边坐。这是菜单，您慢慢看。",
+          "covered_words": [],
+          "textEn": "Yes, please come this way. Here's the menu, take your time.",
+          "pinyin": "Yǒu de, qǐng zhè biān zuò. Zhè shì càidān, nín màn man kàn."
+        },
+        {
+          "dialogueId": 4,
+          "roleId": 2,
+          "text": "谢谢。这个宫保鸡丁多少钱？",
+          "covered_words": [
+            "元"
+          ],
+          "textEn": "Thank you. How much is this Kung Pao Chicken?",
+          "pinyin": "Xièxiè. Zhè ge gōngbǎo jīdīng duōshǎo yuán?"
+        },
+        {
+          "dialogueId": 5,
+          "roleId": 1,
+          "text": "宫保鸡丁是38元。我们这儿的菜分正常份和大份，您要哪样？",
+          "covered_words": [
+            "元",
+            "正常",
+            "样"
+          ],
+          "textEn": "Kung Pao Chicken is 38 yuan. Our dishes come in regular and large sizes, which one would you like?",
+          "pinyin": "Gōngbǎo jīdīng shì sānshíbā yuán. Wǒmen zhèr de cài fēn zhèngcháng fèn hé dà fèn, nín yào nǎ yàng?"
+        },
+        {
+          "dialogueId": 6,
+          "roleId": 2,
+          "text": "我要正常份就好。我不喜欢太甜的菜，这个够甜吗？",
+          "covered_words": [
+            "喜欢",
+            "太",
+            "甜",
+            "正常"
+          ],
+          "textEn": "I'll take the regular size. I don't like very sweet food, is this one sweet enough?",
+          "pinyin": "Wǒ yào zhèngcháng fèn jiù hǎo. Wǒ bù xǐhuān tài tián de cài, zhè ge gòu tián ma?"
+        },
+        {
+          "dialogueId": 7,
+          "roleId": 1,
+          "text": "这个有一点甜，但不是很甜，很多客人说味道很合适。",
+          "covered_words": [
+            "很",
+            "甜"
+          ],
+          "textEn": "It's a little sweet, but not too sweet. Many customers say the taste is just right.",
+          "pinyin": "Zhè ge yǒu yīdiǎn tián, dàn búshì hěn tián, hěnduō kèrén shuō wèidào hěn héshì."
+        },
+        {
+          "dialogueId": 8,
+          "roleId": 2,
+          "text": "好的，那就要这个吧。另外，我不吃葱，可以不要吗？",
+          "covered_words": [],
+          "textEn": "Okay then, I'll have this one. Also, I don't eat onions, can I have it without them?",
+          "pinyin": "Hǎo de, nà jiù yào zhè ge ba. Lìngwài, wǒ bù chī cōng, kěyǐ bú yào ma?"
+        },
+        {
+          "dialogueId": 9,
+          "roleId": 1,
+          "text": "可以的，没问题。还需要别的吗？",
+          "covered_words": [
+            "行"
+          ],
+          "textEn": "Yes, no problem. Would you like anything else?",
+          "pinyin": "Kěyǐ de, méi wèntí. Háixūyào bié de ma?"
+        },
+        {
+          "dialogueId": 10,
+          "roleId": 2,
+          "text": "先这样吧，如果不行我再叫你。",
+          "covered_words": [
+            "一样",
+            "不行"
+          ],
+          "textEn": "That's all for now, if something's not okay I'll call you.",
+          "pinyin": "Xiān zhèyàng ba, rúguǒ bùxíng wǒ zài jiào nǐ."
+        },
+        {
+          "dialogueId": 11,
+          "roleId": 1,
+          "text": "好的，您的菜马上来。",
+          "covered_words": [],
+          "textEn": "Alright, your food will be here shortly.",
+          "pinyin": "Hǎo de, nín de cài mǎshàng lái."
+        },
+        {
+          "dialogueId": 12,
+          "roleId": 2,
+          "text": "服务员，结账，一共多少钱？",
+          "covered_words": [
+            "一共"
+          ],
+          "textEn": "Waiter, check the bill, how much altogether?",
+          "pinyin": "Fúwùyuán, jiézhàng, yīgòng duōshǎo qián?"
+        },
+        {
+          "dialogueId": 13,
+          "roleId": 1,
+          "text": "一共是38元，收您50元，找您12元。",
+          "covered_words": [
+            "一共",
+            "元"
+          ],
+          "textEn": "Altogether it's 38 yuan, I'll take 50 yuan, here's 12 yuan change.",
+          "pinyin": "Yīgòng shì sānshíbā yuán, shōu nín wǔshí yuán, zhǎo nín shí'èr yuán."
+        },
+        {
+          "dialogueId": 14,
+          "roleId": 2,
+          "text": "谢谢，再见！",
+          "covered_words": [],
+          "textEn": "Thank you, goodbye!",
+          "pinyin": "Xièxiè, zàijiàn!"
+        },
+        {
+          "dialogueId": 15,
+          "roleId": 1,
+          "text": "不客气，欢迎下次再来！",
+          "covered_words": [],
+          "textEn": "You're welcome, hope to see you again!",
+          "pinyin": "Bù kèqì, huānyíng xià cì zài lái!"
+        }
+      ],
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "一样",
+          "questions": [
+            {
+              "id": "8ac44fda-c661-4dc6-932b-621325899545",
+              "level": 3,
+              "type": "listen_tf",
+              "stimuli": {
+                "text": "这个有一点甜，但不是很甜，很多客人说味道很合适，和平时吃的差不多一样。",
+                "audio_url": "audio/1e459cb6.mp3"
+              },
+              "stem": "很多客人觉得这道菜的味道和平时吃的一样。",
+              "stem_en": "Many customers feel that the taste of this dish is the same as what they usually eat.",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "正确",
+                  "meaning": "Correct",
+                  "pinyin": null
+                },
+                {
+                  "id": "B",
+                  "text": "错误",
+                  "meaning": "Incorrect",
+                  "pinyin": null
+                }
+              ],
+              "answer": true
+            },
+            {
+              "id": "122092bd-2a09-4513-b6e3-a89c3bbb6818",
+              "level": 3,
+              "type": "listen_choice",
+              "stimuli": {
+                "text": "这个有一点甜，但不是很甜，很多客人说味道很合适，和平时吃的差不多一样。",
+                "audio_url": "audio/cc72b319.mp3"
+              },
+              "stem": "“和平时吃的差不多一样”这句话的意思是什么？",
+              "stem_en": "What does the sentence 'It's almost the same as what I usually eat' mean?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "完全不一样",
+                  "meaning": "Completely different",
+                  "pinyin": "wánquán bù yīyàng"
+                },
+                {
+                  "id": "B",
+                  "text": "有一点像",
+                  "meaning": "A little similar",
+                  "pinyin": "yǒu yīdiǎn xiàng"
+                },
+                {
+                  "id": "C",
+                  "text": "几乎相同",
+                  "meaning": "Almost the same",
+                  "pinyin": "jīhū xiāngtóng"
+                },
+                {
+                  "id": "D",
+                  "text": "稍微不同",
+                  "meaning": "Slightly different",
+                  "pinyin": "shāowēi bùtóng"
+                }
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "word_id": "1",
+          "word": "喜欢",
+          "questions": [
+            {
+              "id": "b9fefe9f-59c7-4fc1-a290-3f49c620c5b3",
+              "level": 3,
+              "type": "read_fillblank",
+              "stimuli": {
+                "text": "您好，欢迎光临！请问有几位？\n一位，我一个人。有靠外的座位吗？\n有的，请这边坐。这是菜单，您慢慢看。\n谢谢。这个宫保鸡丁多少钱？\n宫保鸡丁是38元。我们这儿的菜分正常份和大份，您要哪样？\n我要正常份就好。我不喜欢太甜的菜，这个够甜吗？\n这个有一点甜，但不是很甜，很多客人说味道很合适，和平时吃的差不多一样。\n好的，那就要这个吧。另外，我不吃葱，可以不要吗？\n可以的，没问题。还需要别的吗？\n先这样吧，如果不行我再叫你。\n好的，您的菜马上来。\n服务员，结账，一共多少钱？\n一共是38元，收您50元，找您12元。\n谢谢，再见！\n不客气，欢迎下次再来！",
+                "audio_url": null
+              },
+              "stem": "根据对话内容，填入合适的词：我不______太甜的菜。",
+              "stem_en": "According to the dialogue, fill in the blank: I don't ______ dishes that are too sweet.",
+              "options": null,
+              "answer": "喜欢"
+            },
+            {
+              "id": "a5105f1c-0316-416a-9275-17b21d2b5539",
+              "level": 3,
+              "type": "read_tf",
+              "stimuli": {
+                "text": "您好，欢迎光临！请问有几位？\n一位，我一个人。有靠外的座位吗？\n有的，请这边坐。这是菜单，您慢慢看。\n谢谢。这个宫保鸡丁多少钱？\n宫保鸡丁是38元。我们这儿的菜分正常份和大份，您要哪样？\n我要正常份就好。我不喜欢太甜的菜，这个够甜吗？\n这个有一点甜，但不是很甜，很多客人说味道很合适，和平时吃的差不多一样。\n好的，那就要这个吧。另外，我不吃葱，可以不要吗？\n可以的，没问题。还需要别的吗？\n先这样吧，如果不行我再叫你。\n好的，您的菜马上来。\n服务员，结账，一共多少钱？\n一共是38元，收您50元，找您12元。\n谢谢，再见！\n不客气，欢迎下次再来！",
+                "audio_url": null
+              },
+              "stem": "说话人说他不喜欢太甜的菜。",
+              "stem_en": "The speaker says he doesn't like dishes that are too sweet.",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "正确",
+                  "meaning": "Correct",
+                  "pinyin": null
+                },
+                {
+                  "id": "B",
+                  "text": "错误",
+                  "meaning": "Incorrect",
+                  "pinyin": null
+                }
+              ],
+              "answer": true
+            }
+          ]
+        },
+        {
+          "word_id": "2",
+          "word": "不行",
+          "questions": [
+            {
+              "id": "52910477-41e7-48d7-84d9-958144e0961c",
+              "level": 3,
+              "type": "write_word",
+              "stimuli": {
+                "text": "先这样吧，如果不行我再叫你。",
+                "audio_url": null
+              },
+              "stem": "根据上下文，填入合适的词语：如果________，我再叫你。",
+              "stem_en": "Fill in the blank with the appropriate word based on the context: If ________, I'll call you again.",
+              "options": null,
+              "answer": "不行"
+            },
+            {
+              "id": "d39d43dc-701b-4fc8-af8a-b216d3b63e2b",
+              "level": 3,
+              "type": "write_word",
+              "stimuli": {
+                "text": "这个菜太辣了，我吃不了，真的不行。",
+                "audio_url": null
+              },
+              "stem": "根据句子意思，填入表示‘不可以’或‘做不到’的词：这个菜太辣了，我吃不了，真的________。",
+              "stem_en": "Fill in the word meaning 'cannot' or 'not possible' based on the sentence: This dish is too spicy, I can't eat it, really ________.",
+              "options": null,
+              "answer": "不行"
+            },
+            {
+              "id": "01eb5ace-441f-47ad-937b-41d0eed83a13",
+              "level": 3,
+              "type": "write_word",
+              "stimuli": {
+                "text": "他试了几次开关，但灯还是不亮，看来不行了。",
+                "audio_url": null
+              },
+              "stem": "根据语境，填入表示事情失败或无法成功的词：他试了几次开关，但灯还是不亮，看来________了。",
+              "stem_en": "Fill in the word indicating failure or impossibility based on the context: He tried the switch several times, but the light still didn't turn on, it seems ________ now.",
+              "options": null,
+              "answer": "不行"
+            }
+          ]
+        },
+        {
+          "word_id": "3",
+          "word": "元",
+          "questions": []
+        },
+        {
+          "word_id": "4",
+          "word": "正常",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "一共",
+          "questions": [
+            {
+              "id": "730a2688-d853-4019-8d91-b12d1504f015",
+              "level": 3,
+              "type": "speak_follow",
+              "stimuli": {
+                "text": "服务员，结账，一共多少钱？\n一共是38元，收您50元，找您12元。",
+                "audio_url": "audio/a3960aa0.mp3"
+              },
+              "stem": "请模仿下面的对话，使用‘一共’来询问总金额。",
+              "stem_en": "Please imitate the following dialogue and use '一共' to ask for the total amount.",
+              "options": null,
+              "answer": null
+            }
+          ]
+        },
+        {
+          "word_id": "6",
+          "word": "有（一）点儿",
+          "questions": []
+        },
+        {
+          "word_id": "7",
+          "word": "甜",
+          "questions": []
+        },
+        {
+          "word_id": "8",
+          "word": "很",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "几",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "座位",
+          "questions": [
+            {
+              "id": "0b8b81be-da8e-499f-9df2-46ae2afec3a8",
+              "level": 3,
+              "type": "speak_follow",
+              "stimuli": {
+                "text": "您好，欢迎光临！请问有几位？\n一位，我一个人。有靠外的座位吗？\n有的，请这边坐。这是菜单，您慢慢看。",
+                "audio_url": "audio/11b28452.mp3"
+              },
+              "stem": "请模仿并回答：如果您想坐在靠窗的位置，您会怎么问服务员？",
+              "stem_en": "Please imitate and answer: How would you ask the waiter for a window seat?",
+              "options": null,
+              "answer": "有靠窗的座位吗？"
+            }
+          ]
+        },
+        {
+          "word_id": "11",
+          "word": "外",
+          "questions": []
+        },
+        {
+          "word_id": "12",
+          "word": "太",
+          "questions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "execution_time_seconds": 161.48,
+  "results": [
+    {
+      "lesson_id": "1",
+      "lesson_name": "菜单识读",
+      "passage": {
+        "lesson_id": "1",
+        "text": "我第一次来中餐馆，看着菜单有点紧张。服务员笑着递给我一杯咖啡，让我别着急。我慢慢看，发现菜分好几类：蔬菜、肉、鱼、汤，还有米饭和面条儿。鸡蛋炒西红柿看起来不错，又便宜又好吃。红烧肉有点贵，但我还是想试试。每道菜都有价格，很清楚。最后我点了一份鱼汤、一碗米饭和一盘青菜。吃得饱饱的，心里特别开心！原来点餐也没那么难嘛！",
+        "tokens_est": 158,
+        "covered_words": [
+          "鸡蛋",
+          "价格",
+          "菜单",
+          "咖啡",
+          "便宜",
+          "菜",
+          "鱼",
+          "贵",
+          "汤",
+          "米饭",
+          "面条儿",
+          "肉"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "鸡蛋",
+          "questions": [
+            {
+              "id": "b3b73391-48ea-4e02-b491-8f67fa2262a2",
+              "level": "HSK3",
+              "target_word": "鸡蛋",
+              "type": "listen-choice",
+              "stimuli": {
+                "text": "鸡蛋炒西红柿看起来不错，又便宜又好吃。",
+                "audio_url": "audio/6af07739.mp3"
+              },
+              "stem": "他说了什么？",
+              "options": [
+                "A. 红烧肉很贵，但他想试试。",
+                "B. 鸡蛋炒西红柿看起来不错，又便宜又好吃。",
+                "C. 他点了一份鱼汤和一碗米饭。"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "a902d365-c878-42cf-99de-7aac3a52ddea",
+              "level": "HSK3",
+              "target_word": "鸡蛋",
+              "type": "listen-tf",
+              "stimuli": {
+                "text": "鸡蛋炒西红柿看起来不错，又便宜又好吃。",
+                "audio_url": "audio/7f60372a.mp3"
+              },
+              "stem": "他认为鸡蛋炒西红柿既便宜又好吃。",
+              "options": [],
+              "answer": true
+            }
+          ]
+        },
+        {
+          "word_id": "1",
+          "word": "价格",
+          "questions": [
+            {
+              "id": "43dfe04c-e9b6-4faa-9328-eeca36089849",
+              "level": "HSK3",
+              "target_word": "价格",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "每道菜都有价格，很清楚。",
+                "audio_url": "audio/bcb6df4c.mp3"
+              },
+              "stem": "请用中文说：每道菜都有价格，很清楚。",
+              "options": [],
+              "answer": "每道菜都有价格，很清楚。"
+            },
+            {
+              "id": "af73fbcb-5eac-44e2-b636-fb6bda39d370",
+              "level": "HSK3",
+              "target_word": "价格",
+              "type": "read-choice",
+              "stimuli": {
+                "text": "我第一次来中餐馆，看着菜单有点紧张。服务员笑着递给我一杯咖啡，让我别着急。我慢慢看，发现菜分好几类：蔬菜、肉、鱼、汤，还有米饭和面条儿。鸡蛋炒西红柿看起来不错，又便宜又好吃。红烧肉有点贵，但我还是想试试。每道菜都有价格，很清楚。最后我点了一份鱼汤、一碗米饭和一盘青菜。吃得饱饱的，心里特别开心！原来点餐也没那么难嘛！",
+                "audio_url": null
+              },
+              "stem": "“价格”这个词在文中指的是什么？",
+              "options": [
+                "A. 菜的味道",
+                "B. 菜的种类",
+                "C. 菜的价钱"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "word_id": "2",
+          "word": "菜单",
+          "questions": [
+            {
+              "id": "de64091f-593d-4997-bf17-1c01544cf27b",
+              "level": "HSK3",
+              "target_word": "菜单",
+              "type": "write-word",
+              "stimuli": {
+                "text": "我第一次来中餐馆，看着菜单有点紧张。服务员笑着递给我一杯咖啡，让我别着急。我慢慢看，发现菜分好几类：蔬菜、肉、鱼、汤，还有米饭和面条儿。",
+                "audio_url": null
+              },
+              "stem": "根据上下文，写出文中提到的用来点菜的物品的中文词。",
+              "options": [],
+              "answer": "菜单"
+            },
+            {
+              "id": "eef61a30-12c1-4670-b4f8-85091e75d415",
+              "level": "HSK3",
+              "target_word": "菜单",
+              "type": "write-word",
+              "stimuli": {
+                "text": "每道菜都有价格，很清楚。最后我点了一份鱼汤、一碗米饭和一盘青菜。",
+                "audio_url": null
+              },
+              "stem": "在餐厅里，列出所有菜品和价格供顾客选择的本子叫什么？请写出中文词。",
+              "options": [],
+              "answer": "菜单"
+            },
+            {
+              "id": "52b17ab4-2d6d-4020-aab7-38e14a0e76c0",
+              "level": "HSK3",
+              "target_word": "菜单",
+              "type": "write-word",
+              "stimuli": {
+                "text": "鸡蛋炒西红柿看起来不错，又便宜又好吃。红烧肉有点贵，但我还是想试试。",
+                "audio_url": null
+              },
+              "stem": "顾客在餐厅里查看菜品名称和价格时所使用的工具叫什么？请写出中文词。",
+              "options": [],
+              "answer": "菜单"
+            }
+          ]
+        },
+        {
+          "word_id": "3",
+          "word": "咖啡",
+          "questions": [
+            {
+              "id": "584bbb27-c5cd-420b-ad60-8d71ea090e33",
+              "level": "HSK3",
+              "target_word": "咖啡",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "我第一次来中餐馆，看着菜单有点紧张。服务员笑着递给我一杯咖啡，让我别着急。",
+                "audio_url": "audio/9d192dbf.mp3"
+              },
+              "stem": "请模仿下面的情景说一句话：服务员给你一杯咖啡，并让你别着急。",
+              "options": [],
+              "answer": "别着急，先喝杯咖啡。"
+            },
+            {
+              "id": "ae4aaecf-2a3d-486e-bca2-c18efa1ac952",
+              "level": "HSK3",
+              "target_word": "咖啡",
+              "type": "translate-c2e",
+              "stimuli": {
+                "text": "服务员笑着递给我一杯咖啡，让我别着急。",
+                "audio_url": null
+              },
+              "stem": "请翻译：服务员笑着递给我一杯咖啡，让我别着急。",
+              "options": [],
+              "answer": "The waiter smiled and handed me a cup of coffee, telling me not to worry."
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "便宜",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "鱼",
+          "questions": []
+        },
+        {
+          "word_id": "7",
+          "word": "贵",
+          "questions": []
+        },
+        {
+          "word_id": "8",
+          "word": "汤",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "米饭",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "面条儿",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "肉",
+          "questions": []
+        }
+      ]
+    },
+    {
+      "lesson_id": "2",
+      "lesson_name": "点餐对话",
+      "passage": {
+        "lesson_id": "2",
+        "text": "服务员：您好，欢迎来吃饭！请坐下，菜单在这里。\n\n顾客：谢谢。我想看看菜……这个红烧肉看起来不错，我要买一份，可以吗？\n\n服务员：当然可以。还要别的吗？\n\n顾客：嗯，再来一个青菜吧，不要辣的。\n\n服务员：好的。您吃米饭吗？\n\n顾客：要，一碗米饭。对了，可以用手机支付吗？还是只能用现金？\n\n服务员：都可以。手机支付方便，也可以用现金。\n\n顾客：那我用手机支付。一共多少钱？\n\n服务员：红烧肉25元，青菜12元，米饭3元，总共40元。\n\n顾客：好，我扫一下码……好了，支付成功了。这顿饭买得挺划算的。\n\n服务员：收到啦，谢谢！您的菜马上来，请稍等。\n\n顾客：好的，谢谢您！\n\n服务员：不客气，慢慢吃，有问题叫我。",
+        "tokens_est": 305,
+        "covered_words": [
+          "谢谢",
+          "钱",
+          "坐下",
+          "这里",
+          "现金",
+          "不要",
+          "手机",
+          "菜",
+          "可以",
+          "多少",
+          "买",
+          "请",
+          "支付",
+          "要"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "手机",
+          "questions": []
+        },
+        {
+          "word_id": "1",
+          "word": "可以",
+          "questions": []
+        },
+        {
+          "word_id": "2",
+          "word": "这里",
+          "questions": []
+        },
+        {
+          "word_id": "3",
+          "word": "多少",
+          "questions": [
+            {
+              "id": "996dbab6-47f1-442e-85ae-8d14206d2ca7",
+              "level": "HSK3",
+              "target_word": "多少",
+              "type": "read-choice",
+              "stimuli": {
+                "text": "服务员：红烧肉25元，青菜12元，米饭3元，总共40元。\n\n顾客：那我用手机支付。一共多少钱？",
+                "audio_url": null
+              },
+              "stem": "顾客问‘一共多少钱？’是在询问什么？",
+              "options": [
+                "A. 菜的味道怎么样",
+                "B. 饭菜的总价格",
+                "C. 支付方式有哪些"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "5827909f-39ba-426c-88f1-ccf56e333d3a",
+              "level": "HSK3",
+              "target_word": "多少",
+              "type": "read-tf",
+              "stimuli": {
+                "text": "顾客：那我用手机支付。一共多少钱？\n\n服务员：红烧肉25元，青菜12元，米饭3元，总共40元。",
+                "audio_url": null
+              },
+              "stem": "`多少` 在这个对话中用于询问数量或价格。",
+              "options": [],
+              "answer": true
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "请",
+          "questions": []
+        },
+        {
+          "word_id": "5",
+          "word": "钱",
+          "questions": []
+        },
+        {
+          "word_id": "6",
+          "word": "坐下",
+          "questions": []
+        },
+        {
+          "word_id": "7",
+          "word": "员（服务员）",
+          "questions": [
+            {
+              "id": "fc5d1539-2f38-424d-8a0d-ca6bee53071e",
+              "level": "HSK3",
+              "target_word": "服务员",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "服务员：您好，欢迎来吃饭！请坐下，菜单在这里。",
+                "audio_url": "audio/6ccbce90.mp3"
+              },
+              "stem": "请模仿服务员说这句话：'您好，欢迎来吃饭！请坐下，菜单在这里。'",
+              "options": [],
+              "answer": "您好，欢迎来吃饭！请坐下，菜单在这里。"
+            }
+          ]
+        },
+        {
+          "word_id": "8",
+          "word": "不要",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "菜",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "买",
+          "questions": []
+        },
+        {
+          "word_id": "11",
+          "word": "支付",
+          "questions": [
+            {
+              "id": "4777110d-6f76-4e3b-ab53-1b19eeaa0d5d",
+              "level": "HSK3",
+              "target_word": "支付",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "服务员：都可以。手机支付方便，也可以用现金。\n\n顾客：那我用手机支付。一共多少钱？\n\n服务员：红烧肉25元，青菜12元，米饭3元，总共40元。\n\n顾客：好，我扫一下码……好了，支付成功了。这顿饭买得挺划算的。",
+                "audio_url": "audio/c40d8d0d.mp3"
+              },
+              "stem": "请模仿对话中的顾客，说出你是如何完成支付的。",
+              "options": [],
+              "answer": "好，我扫一下码……好了，支付成功了。"
+            }
+          ]
+        },
+        {
+          "word_id": "12",
+          "word": "要",
+          "questions": []
+        },
+        {
+          "word_id": "13",
+          "word": "谢谢",
+          "questions": []
+        },
+        {
+          "word_id": "14",
+          "word": "现金",
+          "questions": [
+            {
+              "id": "971ed672-2000-466c-9559-da473422d9c8",
+              "level": "HSK3",
+              "target_word": "现金",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "服务员：都可以。手机支付方便，也可以用现金。",
+                "audio_url": "audio/61ce5a87.mp3"
+              },
+              "stem": "请模仿并回答：如果你想去餐厅吃饭，想确认是否能用现金支付，你会怎么问？",
+              "options": [],
+              "answer": "请问可以用现金支付吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson_id": "3",
+      "lesson_name": "情景模拟",
+      "passage": {
+        "lesson_id": "3",
+        "text": "服务员：您好，欢迎光临！有预订吗？  \n顾客：没有，我想找个靠外的座位。  \n服务员：好的，请坐这边吧。这是菜单，您慢慢看。  \n顾客：谢谢。这个菜是什么？  \n服务员：这是宫保鸡丁，有点甜，有点辣，很受欢迎。  \n顾客：我喜欢甜的，但不要太辣。能少放辣椒吗？  \n服务员：可以，我们按正常口味做，也可以根据您要求调整。  \n顾客：那就少辣吧。还有，我不吃葱，行不行？  \n服务员：没问题，不加葱。  \n顾客：那来一份宫保鸡丁，再来一个清炒蔬菜。这两个菜一样贵吗？  \n服务员：宫保鸡丁38元，蔬菜22元，不一样。  \n顾客：好的。一共几元？  \n服务员：一共60元。  \n顾客：给你100元，找40元对吧？  \n服务员：对，收好小票，马上为您上菜！  \n顾客：谢谢，等一下，我还想点一杯饮料。  \n服务员：我们有果汁，很甜，10元一杯。  \n顾客：来一罐吧。现在一共70元，对吗？  \n服务员：没错，您算得真快！",
+        "tokens_est": 407,
+        "covered_words": [
+          "一样",
+          "喜欢",
+          "不行",
+          "元",
+          "正常",
+          "一共",
+          "有（一）点儿",
+          "甜",
+          "很",
+          "几",
+          "座位",
+          "外",
+          "太"
+        ]
+      },
+      "vocab_packages": [
+        {
+          "word_id": "0",
+          "word": "一样",
+          "questions": [
+            {
+              "id": "94453d2c-1f38-43b0-992f-bbc55a90f7de",
+              "level": "HSK3",
+              "target_word": "一样",
+              "type": "listen-choice",
+              "stimuli": {
+                "text": "顾客：那来一份宫保鸡丁，再来一个清炒蔬菜。这两个菜一样贵吗？\n服务员：宫保鸡丁38元，蔬菜22元，不一样。",
+                "audio_url": "audio/76f5a42a.mp3"
+              },
+              "stem": "顾客问两个菜的价格是否一样，服务员是怎么回答的？",
+              "options": [
+                "A. 一样贵",
+                "B. 不一样贵",
+                "C. 都很便宜"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "8bf8f0e4-ddeb-43fc-85f6-301981b32f7a",
+              "level": "HSK3",
+              "target_word": "一样",
+              "type": "listen-choice",
+              "stimuli": {
+                "text": "顾客：那来一份宫保鸡丁，再来一个清炒蔬菜。这两个菜一样贵吗？\n服务员：宫保鸡丁38元，蔬菜22元，不一样。",
+                "audio_url": "audio/08291fae.mp3"
+              },
+              "stem": "宫保鸡丁和清炒蔬菜的价格相同吗？",
+              "options": [
+                "A. 相同",
+                "B. 不太清楚",
+                "C. 不相同"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "e6f8e3b3-146b-4016-9940-9347429e4231",
+              "level": "HSK3",
+              "target_word": "一样",
+              "type": "listen-tf",
+              "stimuli": {
+                "text": "顾客：那来一份宫保鸡丁，再来一个清炒蔬菜。这两个菜一样贵吗？\n服务员：宫保鸡丁38元，蔬菜22元，不一样。",
+                "audio_url": "audio/c417cf11.mp3"
+              },
+              "stem": "服务员说宫保鸡丁和清炒蔬菜价格一样。",
+              "options": [
+                "A. true",
+                "B. false"
+              ],
+              "answer": false
+            },
+            {
+              "id": "80957b9a-d842-4fb1-96e3-1cb6342efe49",
+              "level": "HSK3",
+              "target_word": "一样",
+              "type": "listen-tf",
+              "stimuli": {
+                "text": "顾客：那来一份宫保鸡丁，再来一个清炒蔬菜。这两个菜一样贵吗？\n服务员：宫保鸡丁38元，蔬菜22元，不一样。",
+                "audio_url": "audio/5c36cf3c.mp3"
+              },
+              "stem": "顾客想知道两个菜的价格是否相同。",
+              "options": [
+                "A. true",
+                "B. false"
+              ],
+              "answer": true
+            }
+          ]
+        },
+        {
+          "word_id": "1",
+          "word": "喜欢",
+          "questions": [
+            {
+              "id": "53af4f29-9a80-4b16-9e7a-19a4fdf51637",
+              "level": "HSK3",
+              "target_word": "喜欢",
+              "type": "read-choice",
+              "stimuli": {
+                "text": "顾客：我喜欢甜的，但不要太辣。能少放辣椒吗？",
+                "audio_url": null
+              },
+              "stem": "顾客为什么想让菜少放辣椒？",
+              "options": [
+                "A. 因为他不喜欢甜的味道",
+                "B. 因为他喜欢辣，但不想太甜",
+                "C. 因为他喜欢甜的，但不喜欢太辣"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "d4cf7f1a-1d27-464b-ac8c-8dc8b5dcf252",
+              "level": "HSK3",
+              "target_word": "喜欢",
+              "type": "read-tf",
+              "stimuli": {
+                "text": "顾客：我喜欢甜的，但不要太辣。能少放辣椒吗？",
+                "audio_url": null
+              },
+              "stem": "顾客说他喜欢太辣的食物。",
+              "options": [],
+              "answer": false
+            }
+          ]
+        },
+        {
+          "word_id": "2",
+          "word": "不行",
+          "questions": [
+            {
+              "id": "7502da26-b521-4f55-b634-09ad780ea301",
+              "level": "HSK3",
+              "target_word": "不行",
+              "type": "write-word",
+              "stimuli": {
+                "text": "顾客：还有，我不吃葱，行不行？\n服务员：没问题，不加葱。",
+                "audio_url": null
+              },
+              "stem": "请根据对话内容，写出顾客询问是否可以不加葱时使用的词语。",
+              "options": [],
+              "answer": "不行"
+            },
+            {
+              "id": "a93daa98-a3a9-4d0e-90de-39e58cc63545",
+              "level": "HSK3",
+              "target_word": "不行",
+              "type": "write-word",
+              "stimuli": {
+                "text": "顾客：还有，我不吃葱，行不行？\n服务员：没问题，不加葱。",
+                "audio_url": null
+              },
+              "stem": "在‘行不行’这个表达中，表示否定的部分是哪个词？",
+              "options": [],
+              "answer": "不行"
+            },
+            {
+              "id": "eb1e31d1-b0e5-4305-ae50-1e25abf2df3d",
+              "level": "HSK3",
+              "target_word": "不行",
+              "type": "write-word",
+              "stimuli": {
+                "text": "服务员：可以，我们按正常口味做，也可以根据您要求调整。\n顾客：那就少辣吧。还有，我不吃葱，行不行？",
+                "audio_url": null
+              },
+              "stem": "顾客想确认自己的要求能否被满足时，用了哪个表示怀疑或否定的词？",
+              "options": [],
+              "answer": "不行"
+            },
+            {
+              "id": "ada308e4-087e-46ae-abe0-509f1ece5590",
+              "level": "HSK3",
+              "target_word": "不行",
+              "type": "write-word",
+              "stimuli": {
+                "text": "顾客：还有，我不吃葱，行不行？\n服务员：没问题，不加葱。",
+                "audio_url": null
+              },
+              "stem": "请写出‘行不行’中的否定形式词汇。",
+              "options": [],
+              "answer": "不行"
+            }
+          ]
+        },
+        {
+          "word_id": "3",
+          "word": "元",
+          "questions": [
+            {
+              "id": "e2e33e83-93fb-4538-aec8-0657d85ea066",
+              "level": "HSK3",
+              "target_word": "元",
+              "type": "translate-e2c",
+              "stimuli": {
+                "text": "服务员：宫保鸡丁38元，蔬菜22元，不一样。\n顾客：好的。一共几元？\n服务员：一共60元。\n顾客：给你100元，找40元对吧？\n服务员：对，收好小票，马上为您上菜！",
+                "audio_url": null
+              },
+              "stem": "请翻译：How much is it in total?",
+              "options": [],
+              "answer": "一共几元？"
+            }
+          ]
+        },
+        {
+          "word_id": "4",
+          "word": "正常",
+          "questions": [
+            {
+              "id": "377e59a6-10fb-4d25-b0dd-6a6b219bb62e",
+              "level": "HSK3",
+              "target_word": "正常",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "服务员：可以，我们按正常口味做，也可以根据您要求调整。",
+                "audio_url": "audio/58b80587.mp3"
+              },
+              "stem": "请模仿下面的句子说一句话：'我们按正常口味做，也可以根据您要求调整。'",
+              "options": [],
+              "answer": "我们按正常口味做，也可以根据您要求调整。"
+            }
+          ]
+        },
+        {
+          "word_id": "5",
+          "word": "一共",
+          "questions": [
+            {
+              "id": "36a50650-5e3f-4966-a518-f7b3c90c4284",
+              "level": "HSK3",
+              "target_word": "一共",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "顾客：好的。一共几元？\n服务员：一共60元。",
+                "audio_url": "audio/2c836400.mp3"
+              },
+              "stem": "请模仿对话中的语气和用法，使用‘一共’来提问并回答接下来的情况：你点了一份38元的宫保鸡丁和一份22元的清炒蔬菜，总共多少钱？",
+              "options": [],
+              "answer": "一共60元。"
+            }
+          ]
+        },
+        {
+          "word_id": "6",
+          "word": "有（一）点儿",
+          "questions": [
+            {
+              "id": "08e1c4ed-a92b-439b-93a5-bb44a2b4588d",
+              "level": "HSK3",
+              "target_word": "一",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "服务员：来一罐吧。现在一共70元，对吗？\n顾客：没错，您算得真快！",
+                "audio_url": "audio/87343a94.mp3"
+              },
+              "stem": "请模仿顾客的语气，用中文说：'没错，您算得真快！'",
+              "options": [],
+              "answer": "没错，您算得真快！"
+            }
+          ]
+        },
+        {
+          "word_id": "7",
+          "word": "甜",
+          "questions": [
+            {
+              "id": "7f253d74-43e1-4693-812e-418359b0822a",
+              "level": "HSK3",
+              "target_word": "甜",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "服务员：我们有果汁，很甜，10元一杯。",
+                "audio_url": "audio/d893da82.mp3"
+              },
+              "stem": "请模仿下面这句话的语气和内容，用中文说一句话，使用词语‘甜’。",
+              "options": [],
+              "answer": "这杯果汁真甜，好喝！"
+            }
+          ]
+        },
+        {
+          "word_id": "8",
+          "word": "很",
+          "questions": []
+        },
+        {
+          "word_id": "9",
+          "word": "几",
+          "questions": []
+        },
+        {
+          "word_id": "10",
+          "word": "座位",
+          "questions": [
+            {
+              "id": "87c0569e-47e0-4d3e-b06f-6f80216859ac",
+              "level": "HSK3",
+              "target_word": "座位",
+              "type": "speak-follow",
+              "stimuli": {
+                "text": "服务员：您好，欢迎光临！有预订吗？\n顾客：没有，我想找个靠外的座位。",
+                "audio_url": "audio/23b80ae4.mp3"
+              },
+              "stem": "请模仿顾客说：我想找个靠外的座位。",
+              "options": [],
+              "answer": "我想找个靠外的座位。"
+            }
+          ]
+        },
+        {
+          "word_id": "11",
+          "word": "外",
+          "questions": []
+        },
+        {
+          "word_id": "12",
+          "word": "太",
+          "questions": []
+        }
+      ]
+    }
+  ]
+}

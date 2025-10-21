@@ -1,5 +1,4 @@
 {
-  "q_num":31,  
   "topic": "餐厅点餐",
   "hsk_level": 3,
   "total_lessons": 3,
@@ -18,6 +17,8 @@
         "writing": 3,
         "translating": 1
       },
+      "type": "passage",
+      "roles": null,
       "related_vocabulary": [
         {
           "word_id": 0,
@@ -177,6 +178,17 @@
         "writing": 0,
         "translating": 0
       },
+      "type": "dialogue",
+      "roles": [
+        {
+          "roleId": 1,
+          "roleName": "服务员"
+        },
+        {
+          "roleId": 2,
+          "roleName": "顾客"
+        }
+      ],
       "related_vocabulary": [
         {
           "word_id": 0,
@@ -372,6 +384,17 @@
         "writing": 4,
         "translating": 1
       },
+      "type": "dialogue",
+      "roles": [
+        {
+          "roleId": 1,
+          "roleName": "服务员"
+        },
+        {
+          "roleId": 2,
+          "roleName": "顾客"
+        }
+      ],
       "related_vocabulary": [
         {
           "word_id": 0,

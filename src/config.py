@@ -1,24 +1,41 @@
+
 SKILL_TO_EXERCISE_MAP = {
     "listening": [
-        "listen-choice", 
-        "listen-tf"     
+        "listen_choice", 
+        "listen_tf"     
     ],
     "reading": [
-        "read-choice",    
-        "read-tf",        
-        "read-fillblank"  
+        "read_choice",    
+        "read_tf",        
+        "read_fillblank"  
     ],
     "translating": [
-        "translate-c2e", 
-        "translate-e2c"  
+        "translate_c2e", 
+        "translate_e2c"  
     ],
     "speaking": [
-        "speak-follow"    
+        "speak_follow"    
     ],
     "writing": [
-        "write-word"      
+        "write_word"      
     ]
 }
 
 
-LISTENING_EXERCISE_TYPES = {"listen-choice", "listen-tf","speak-follow"}
+LISTENING_EXERCISE_TYPES = {
+    "listen_choice",  
+    "listen_tf",      
+    "speak_follow"    
+}
+
+ALL_EXERCISE_TYPES = {
+    "listen_choice",
+    "listen_tf",
+    "read_choice",
+    "read_tf",
+    "read_fillblank",
+    "translate_c2e",
+    "translate_e2c",
+    "speak_follow",
+    "write_word"
+}
